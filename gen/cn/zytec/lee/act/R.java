@@ -12,28 +12,41 @@ public final class R {
     }
     public static final class drawable {
         public static final int collections_view_as_grid=0x7f020000;
-        public static final int content_picture=0x7f020001;
-        public static final int device_access_mic=0x7f020002;
-        public static final int ic_action_search=0x7f020003;
-        public static final int ic_launcher=0x7f020004;
-        public static final int img0001=0x7f020005;
-        public static final int img0030=0x7f020006;
-        public static final int img0100=0x7f020007;
-        public static final int img0130=0x7f020008;
-        public static final int img0200=0x7f020009;
-        public static final int img0230=0x7f02000a;
-        public static final int img0300=0x7f02000b;
-        public static final int img0330=0x7f02000c;
-        public static final int img0354=0x7f02000d;
-        public static final int main_set_gray48=0x7f02000e;
-        public static final int play_bg_1=0x7f02000f;
-        public static final int play_bg_2=0x7f020010;
-        public static final int play_bg_3=0x7f020011;
-        public static final int social_share=0x7f020012;
+        public static final int collections_view_as_grid_gray=0x7f020001;
+        public static final int collections_view_as_grid_x=0x7f020002;
+        public static final int content_new_picture=0x7f020003;
+        public static final int content_picture=0x7f020004;
+        public static final int content_picture_gray=0x7f020005;
+        public static final int content_picture_x=0x7f020006;
+        public static final int device_access_mic=0x7f020007;
+        public static final int device_access_mic_gray=0x7f020008;
+        public static final int device_access_mic_x=0x7f020009;
+        public static final int ic_action_search=0x7f02000a;
+        public static final int ic_launcher=0x7f02000b;
+        public static final int img0001=0x7f02000c;
+        public static final int img0030=0x7f02000d;
+        public static final int img0100=0x7f02000e;
+        public static final int img0130=0x7f02000f;
+        public static final int img0200=0x7f020010;
+        public static final int img0230=0x7f020011;
+        public static final int img0300=0x7f020012;
+        public static final int img0330=0x7f020013;
+        public static final int img0354=0x7f020014;
+        public static final int main_bg_1=0x7f020015;
+        public static final int main_bg_2=0x7f020016;
+        public static final int main_bg_3=0x7f020017;
+        public static final int main_bg_4=0x7f020018;
+        public static final int main_set=0x7f020019;
+        public static final int main_set_gray=0x7f02001a;
+        public static final int main_set_x=0x7f02001b;
+        public static final int social_share=0x7f02001c;
+        public static final int social_share_gray=0x7f02001d;
+        public static final int social_share_x=0x7f02001e;
     }
     public static final class id {
-        public static final int Gallery=0x7f070000;
-        public static final int menu_settings=0x7f070001;
+        public static final int Gallery=0x7f070001;
+        public static final int main_activiry_bgll=0x7f070000;
+        public static final int menu_settings=0x7f070002;
     }
     public static final class layout {
         public static final int activity_main=0x7f030000;

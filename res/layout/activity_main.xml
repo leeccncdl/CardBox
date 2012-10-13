@@ -1,10 +1,11 @@
 <?xml version="1.0" encoding="utf-8"?>
 <LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
     xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/main_activiry_bgll"
     style="@style/layout_full"
     android:baselineAligned="false"
     android:orientation="vertical"
-    android:background="@drawable/play_bg_1"
+    android:background="@drawable/main_bg_4"
     >
 
 	<LinearLayout
@@ -17,11 +18,13 @@
 		<ImageView 
 		    android:contentDescription="@string/app_name"
 		    style="@style/layout_wrap"
-		    android:src="@drawable/content_picture"/>		
+		    android:src="@drawable/content_picture_x"
+		    android:clickable="true"/>		
 		<ImageView 
 		    android:contentDescription="@string/app_name"
 		    style="@style/layout_wrap"
-		    android:src="@drawable/collections_view_as_grid"/>
+		    android:src="@drawable/collections_view_as_grid_x"
+		    android:clickable="true"/>
 		<TextView 
 		    style="@style/layout_wrap"
 		    android:layout_weight="1"
@@ -30,11 +33,13 @@
 		<ImageView 
 		    android:contentDescription="@string/app_name"
 		    style="@style/layout_wrap"
-		    android:src="@drawable/device_access_mic"/>
+		    android:src="@drawable/device_access_mic_x"
+		    android:clickable="true"/>
 		<ImageView 
 		    android:contentDescription="@string/app_name"
 		    style="@style/layout_wrap"
-		    android:src="@drawable/social_share"/>
+		    android:src="@drawable/social_share_x"
+		    android:clickable="true"/>
 	</LinearLayout>
 	<LinearLayout 
 		style="@style/layout_vertical"
@@ -59,6 +64,7 @@
 		<ImageView 
 		    android:contentDescription="@string/app_name"
 		    style="@style/layout_wrap"
-		    android:src="@drawable/main_set_gray48"/>
+		    android:src="@drawable/main_set_x"
+		    android:clickable="true"/>
 	</LinearLayout>
 </LinearLayout>
