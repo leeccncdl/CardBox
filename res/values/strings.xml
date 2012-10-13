@@ -5,5 +5,7 @@
     <string name="menu_settings">Settings</string>
     <string name="title_activity_main">CardBox</string>
     <string name="title_description">卡片盒子</string>
+    
+    <string name="hero_1">呼保义 宋江</string>
 
 </resources>

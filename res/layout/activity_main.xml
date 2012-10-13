@@ -10,7 +10,7 @@
 	<LinearLayout
 	    style="@style/layout_vertical"
 	    android:layout_weight="1"
-	    android:gravity="center"
+	    android:gravity="center_vertical"
 	    android:orientation="horizontal"
 	    android:paddingLeft="8dp"
 	    android:paddingRight="8dp" >
@@ -23,7 +23,7 @@
 		    style="@style/layout_wrap"
 		    android:src="@drawable/collections_view_as_grid"/>
 		<TextView 
-		    style="@style/layout_horizontal"
+		    style="@style/layout_wrap"
 		    android:layout_weight="1"
 		    android:gravity="center"
 		    android:text="@string/title_description"/>
@@ -42,9 +42,14 @@
 		android:orientation="vertical">
 		<cn.zytec.lee.gallery.GalleryFlow
 		    style="@style/layout_full"
-        	android:id="@+id/Gallery01"
+        	android:id="@+id/Gallery"
         	android:layout_gravity="center"
         	android:spacing="0dip"/>
+		<GridView 
+		    style="@style/layout_full"
+		    android:numColumns="3"
+		    android:stretchMode="spacingWidth"
+		    android:gravity="center"></GridView>
 	</LinearLayout>
 	<LinearLayout 
 		style="@style/layout_vertical"
