@@ -7,5 +7,62 @@
     <string name="title_description">卡片盒子</string>
     
     <string name="hero_1">呼保义 宋江</string>
-
+    
+	<string
+		name="app_id">5074c428</string>
+    <!-- isr -->
+	<string
+		name="preference_title_isr">识别设置</string>
+	<string
+		name="preference_key_isr_engine">isr_engine</string>
+	<string
+		name="preference_title_isr_engine">识别引擎</string>
+	<string-array
+		name="preference_entries_isr_engine">
+		<item>歌手识别</item>
+		<item>地名识别</item>
+	</string-array>
+	<string-array
+		name="preference_values_isr_engine">
+		<item>sms</item>
+		<item>poi</item>
+	</string-array>
+	<string
+		name="preference_default_isr_engine">sms</string>
+	<string
+		name="preference_dialog_title_isr_engine">选择识别引擎</string>
+	<string
+		name="preference_key_isr_rate">isr_rate</string>
+	<string
+		name="preference_title_isr_rate">识别采样率</string>
+	<string-array
+		name="preference_entries_isr_rate">
+		<item>8K</item>
+		<item>11K</item>
+		<item>16K</item>
+		<item>22K</item>
+	</string-array>
+	<string-array
+		name="preference_values_isr_rate">
+		<item>rate8k</item>
+		<item>rate11k</item>
+		<item>rate16k</item>
+		<item>rate22k</item>
+	</string-array>
+	<string
+		name="preference_default_isr_rate">rate16k</string>
+	<string
+		name="preference_dialog_title_isr_rate">选择识别采样率</string>
+	<string
+		name="preference_key_isr_vad">isr_vad</string>
+	<string
+		name="preference_title_isr_vad">启用端点检测</string>
+	<string
+		name="tts_toast_format"
+		formatted="false">当前合成进度为%d%%，播放进度为%d%%</string>
+	
+		<string
+		name="title_isr_warning">警告</string>
+	<string
+		name="message_isr_warning">请先点击“上传”按钮上传语法</string>
 </resources>

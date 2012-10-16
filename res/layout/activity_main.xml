@@ -16,26 +16,31 @@
 	    android:paddingLeft="8dp"
 	    android:paddingRight="8dp" >
 		<ImageView 
+		    android:id="@+id/main_gallery_view_iv"
 		    android:contentDescription="@string/app_name"
 		    style="@style/layout_wrap"
 		    android:src="@drawable/content_picture_x"
 		    android:clickable="true"/>		
 		<ImageView 
+		    android:id="@+id/main_grid_view_iv"
 		    android:contentDescription="@string/app_name"
 		    style="@style/layout_wrap"
 		    android:src="@drawable/collections_view_as_grid_x"
 		    android:clickable="true"/>
 		<TextView 
+		    android:id="@+id/main_topcenter_title_tv"
 		    style="@style/layout_wrap"
 		    android:layout_weight="1"
 		    android:gravity="center"
 		    android:text="@string/title_description"/>
 		<ImageView 
+		    android:id="@+id/main_mic_tv"
 		    android:contentDescription="@string/app_name"
 		    style="@style/layout_wrap"
 		    android:src="@drawable/device_access_mic_x"
 		    android:clickable="true"/>
 		<ImageView 
+		    android:id="@+id/main_share_iv"
 		    android:contentDescription="@string/app_name"
 		    style="@style/layout_wrap"
 		    android:src="@drawable/social_share_x"
@@ -62,6 +67,7 @@
 		android:gravity="center"
 		android:orientation="horizontal">
 		<ImageView 
+		    android:id="@+id/main_setting_iv"
 		    android:contentDescription="@string/app_name"
 		    style="@style/layout_wrap"
 		    android:src="@drawable/main_set_x"

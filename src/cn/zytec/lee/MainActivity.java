@@ -1,8 +1,8 @@
-package cn.zytec.lee.act;
+package cn.zytec.lee;
 
 import java.util.Random;
-
 import android.app.Activity;
+import android.content.Intent;
 import android.hardware.Sensor;
 import android.hardware.SensorEvent;
 import android.hardware.SensorEventListener;
@@ -14,15 +14,18 @@ import android.os.Vibrator;
 import android.util.Log;
 import android.view.Menu;
 import android.view.View;
+import android.view.View.OnClickListener;
 import android.widget.AdapterView;
 import android.widget.AdapterView.OnItemClickListener;
+import android.widget.ImageView;
 import android.widget.LinearLayout;
 import android.widget.Toast;
 import cn.zytec.lee.CardBoxApp;
 import cn.zytec.lee.gallery.GalleryFlow;
 import cn.zytec.lee.gallery.ImageAdapter;
+import cn.zytec.lee.voice.IsrDemoActivity;
 
-public class MainActivity extends Activity {
+public class MainActivity extends Activity implements OnClickListener {
 
 	private ImageAdapter adapter;
 
@@ -34,6 +37,12 @@ public class MainActivity extends Activity {
 	private LinearLayout mainBgLl;
 	
 	private int currentBg = 3;
+	
+	private ImageView micImageView;
+	private ImageView shareImageView;
+	private ImageView galleryImageView;
+	private ImageView gridImageView;
+	private ImageView settingImageView;
 
 	@Override
 	public void onCreate(Bundle savedInstanceState) {
@@ -49,9 +58,53 @@ public class MainActivity extends Activity {
 
 		adapter = new ImageAdapter(this, images);
 		upDateView();
+		
+		micImageView = (ImageView) findViewById(R.id.main_mic_tv);
+		shareImageView = (ImageView) findViewById(R.id.main_share_iv);
+		galleryImageView = (ImageView) findViewById(R.id.main_gallery_view_iv);
+		gridImageView = (ImageView) findViewById(R.id.main_grid_view_iv);
+		settingImageView = (ImageView) findViewById(R.id.main_grid_view_iv);
+		
+		galleryImageView.setEnabled(false);
+		micImageView.setOnClickListener(this);
+		shareImageView.setOnClickListener(this);
+		galleryImageView.setOnClickListener(this);
+		gridImageView.setOnClickListener(this);
+		settingImageView.setOnClickListener(this);
 
 	}
+	@Override
+	public void onClick(View v) {
+		Intent intent = null;
+		switch (v.getId()) {
+		//ç‚¹å‡»è½¬å†™æŒ‰é’®ï¼Œè·³è½¬åˆ°è¯­éŸ³è½¬å†™é¡µé¢.
+		case R.id.main_mic_tv:
+			intent = new Intent(this, IsrDemoActivity.class);
+			break;
+		//ç‚¹å‡»è¯†åˆ«æŒ‰é’®ï¼Œè·³è½¬åˆ°è¯­éŸ³è¯†åˆ«é¡µé¢.
+		case R.id.main_share_iv:
+	         Intent shareIntent=new Intent(Intent.ACTION_SEND);
+	         
+	         shareIntent.setType("text/plain");
+	         shareIntent.putExtra(Intent.EXTRA_SUBJECT, "åˆ†äº«");
+	         shareIntent.putExtra(Intent.EXTRA_TEXT, "å¡ç‰‡ç›’å­è¿™ä¸ªåº”ç”¨å¾ˆå¥½å•Š");
+	         startActivity(Intent.createChooser(shareIntent, getTitle()));
 
+			break;
+		//ç‚¹å‡»åˆæˆæŒ‰é’®ï¼Œè·³è½¬åˆ°è¯­éŸ³åˆæˆé¡µé¢.
+		case R.id.main_gallery_view_iv:
+//			intent = new Intent(this, TtsDemoActivity.class);
+			break;
+		case R.id.main_grid_view_iv:
+			break;
+		case R.id.main_setting_iv:
+			break;
+		}
+		if(intent != null) {
+			startActivity(intent);
+		}
+	}
+	
 	@Override
 	protected void onResume() {
 		super.onResume();
@@ -78,7 +131,7 @@ public class MainActivity extends Activity {
 	}
 
 	/**
-	 * ¸üĞÂÊÓÍ¼ ¸ù¾İÏÔÊ¾ÊÓÍ¼µÄ¾²Ì¬±äÁ¿£¬¾ö¶¨ÏÔÊ¾ »­ÀÈÊÓÍ¼»òÕß±í¸ñÊÓÍ¼
+	 * ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½Í¼ ï¿½ï¿½ï¿½ï¿½ï¿½Ê¾ï¿½ï¿½Í¼ï¿½Ä¾ï¿½Ì¬ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½Ê¾ ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½Í¼ï¿½ï¿½ï¿½ß±ï¿½ï¿½ï¿½ï¿½Í¼
 	 */
 	private void upDateView() {
 		switch (CardBoxApp.showView) {
@@ -86,7 +139,7 @@ public class MainActivity extends Activity {
 			GalleryFlow galleryFlow = (GalleryFlow) this
 					.findViewById(R.id.Gallery);
 			galleryFlow.setFadingEdgeLength(0);
-			galleryFlow.setSpacing(-100); // Í¼Æ¬Ö®¼äµÄ¼ä¾à
+			galleryFlow.setSpacing(-100); // Í¼Æ¬Ö®ï¿½ï¿½Ä¼ï¿½ï¿½
 			galleryFlow.setAdapter(adapter);
 
 			galleryFlow.setOnItemClickListener(new OnItemClickListener() {
@@ -124,7 +177,7 @@ public class MainActivity extends Activity {
 			float y = values[1];
 			float z = values[2];
 
-			Log.i("LOG", "xÖá·½ÏòµÄÖØÁ¦¼ÓËÙ¶È" + x + ";yÖá·½ÏòµÄÖØÁ¦¼ÓËÙ¶È" + y + "£»zÖá·½ÏòµÄÖØÁ¦¼ÓËÙ¶È"
+			Log.i("LOG", "xï¿½á·½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½Ù¶ï¿½" + x + ";yï¿½á·½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½Ù¶ï¿½" + y + "ï¿½ï¿½zï¿½á·½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½Ù¶ï¿½"
 					+ z);
 
 			int medumValue = 19;
@@ -146,7 +199,7 @@ public class MainActivity extends Activity {
 			super.handleMessage(msg);
 			switch (msg.what) {
 			case SENSOR_SHAKE:
-//				Toast.makeText(MainActivity.this, "¼ì²âµ½Ò¡»Î£¬Ö´ĞĞ²Ù×÷£¡",
+//				Toast.makeText(MainActivity.this, "ï¿½ï¿½âµ½Ò¡ï¿½Î£ï¿½Ö´ï¿½Ğ²ï¿½ï¿½ï¿½ï¿½ï¿½",
 //						Toast.LENGTH_SHORT).show();
 				
 				mainBgLl = (LinearLayout)findViewById(R.id.main_activiry_bgll);
@@ -184,4 +237,6 @@ public class MainActivity extends Activity {
 			}
 		}
 	};
+
+
 }
