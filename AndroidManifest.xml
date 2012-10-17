@@ -41,6 +41,9 @@
         <activity
             android:name=".voice.IsrDemoActivity">
         </activity>
+        <activity
+            android:name=".SettingActivity">
+        </activity>
     </application>
 
 </manifest>

@@ -11,12 +11,12 @@ import android.os.Bundle;
 import android.os.Handler;
 import android.os.Message;
 import android.os.Vibrator;
-import android.util.Log;
 import android.view.Menu;
 import android.view.View;
 import android.view.View.OnClickListener;
 import android.widget.AdapterView;
 import android.widget.AdapterView.OnItemClickListener;
+import android.widget.GridView;
 import android.widget.ImageView;
 import android.widget.LinearLayout;
 import android.widget.Toast;
@@ -43,6 +43,8 @@ public class MainActivity extends Activity implements OnClickListener {
 	private ImageView galleryImageView;
 	private ImageView gridImageView;
 	private ImageView settingImageView;
+	private GalleryFlow galleryFlow;
+	private GridView gridView;
 
 	@Override
 	public void onCreate(Bundle savedInstanceState) {
@@ -56,22 +58,24 @@ public class MainActivity extends Activity implements OnClickListener {
 				R.drawable.img0100, R.drawable.img0130, R.drawable.img0200,
 				R.drawable.img0230, R.drawable.img0330, R.drawable.img0354 };
 
-		adapter = new ImageAdapter(this, images);
-		upDateView();
+
 		
 		micImageView = (ImageView) findViewById(R.id.main_mic_tv);
 		shareImageView = (ImageView) findViewById(R.id.main_share_iv);
 		galleryImageView = (ImageView) findViewById(R.id.main_gallery_view_iv);
 		gridImageView = (ImageView) findViewById(R.id.main_grid_view_iv);
-		settingImageView = (ImageView) findViewById(R.id.main_grid_view_iv);
-		
-		galleryImageView.setEnabled(false);
+		settingImageView = (ImageView) findViewById(R.id.main_setting_iv);
+	
 		micImageView.setOnClickListener(this);
 		shareImageView.setOnClickListener(this);
 		galleryImageView.setOnClickListener(this);
 		gridImageView.setOnClickListener(this);
 		settingImageView.setOnClickListener(this);
 
+		adapter = new ImageAdapter(this, images);
+		galleryFlow = (GalleryFlow) this.findViewById(R.id.Gallery);
+		gridView = (GridView)this.findViewById(R.id.main_gridview);
+		upDateView();
 	}
 	@Override
 	public void onClick(View v) {
@@ -93,11 +97,20 @@ public class MainActivity extends Activity implements OnClickListener {
 			break;
 		//点击合成按钮，跳转到语音合成页面.
 		case R.id.main_gallery_view_iv:
-//			intent = new Intent(this, TtsDemoActivity.class);
+			if(CardBoxApp.showView != CardBoxApp.GALLERYVIEW) {
+				CardBoxApp.showView = CardBoxApp.GALLERYVIEW;
+				upDateView();
+			}
 			break;
 		case R.id.main_grid_view_iv:
+			if(CardBoxApp.showView != CardBoxApp.GRIDVIEW) {
+				CardBoxApp.showView = CardBoxApp.GRIDVIEW;
+				upDateView();
+			}
 			break;
 		case R.id.main_setting_iv:
+			System.out.println("Seting");
+			intent = new Intent(this, SettingActivity.class);
 			break;
 		}
 		if(intent != null) {
@@ -130,16 +143,22 @@ public class MainActivity extends Activity implements OnClickListener {
 		return true;
 	}
 
-	/**
-	 * ������ͼ �����ʾ��ͼ�ľ�̬������������ʾ ������ͼ���߱����ͼ
-	 */
+
 	private void upDateView() {
 		switch (CardBoxApp.showView) {
 		case CardBoxApp.GALLERYVIEW:
-			GalleryFlow galleryFlow = (GalleryFlow) this
-					.findViewById(R.id.Gallery);
+			
+			galleryImageView.setEnabled(false);
+			gridImageView.setEnabled(true);
+			
+			if(gridView!=null) {
+				gridView.setVisibility(View.GONE);
+			}
+			
+			galleryFlow.setVisibility(View.VISIBLE);
+			
 			galleryFlow.setFadingEdgeLength(0);
-			galleryFlow.setSpacing(-100); // ͼƬ֮��ļ��
+			galleryFlow.setSpacing(-100); 
 			galleryFlow.setAdapter(adapter);
 
 			galleryFlow.setOnItemClickListener(new OnItemClickListener() {
@@ -154,7 +173,27 @@ public class MainActivity extends Activity implements OnClickListener {
 			galleryFlow.setSelection(0);
 			break;
 		case CardBoxApp.GRIDVIEW:
+			
+			galleryImageView.setEnabled(true);
+			gridImageView.setEnabled(false);
+			
+			if(galleryFlow!=null) {
+				galleryFlow.setVisibility(View.GONE);
+			}
+			
+			gridView.setVisibility(View.VISIBLE);
+			gridView.setAdapter(adapter);
+			gridView.setOnItemClickListener(new OnItemClickListener() {
 
+				@Override
+				public void onItemClick(AdapterView<?> parent, View view,
+						int position, long id) {
+					Toast.makeText(getApplicationContext(),
+							String.valueOf(position), Toast.LENGTH_SHORT)
+							.show();
+					
+				}
+			});
 			break;
 		default:
 			break;
@@ -176,10 +215,7 @@ public class MainActivity extends Activity implements OnClickListener {
 			float x = values[0];
 			float y = values[1];
 			float z = values[2];
-
-			Log.i("LOG", "x�᷽����������ٶ�" + x + ";y�᷽����������ٶ�" + y + "��z�᷽����������ٶ�"
-					+ z);
-
+			
 			int medumValue = 19;
 			if (Math.abs(x) > medumValue || Math.abs(y) > medumValue
 					|| Math.abs(z) > medumValue) {
@@ -199,8 +235,6 @@ public class MainActivity extends Activity implements OnClickListener {
 			super.handleMessage(msg);
 			switch (msg.what) {
 			case SENSOR_SHAKE:
-//				Toast.makeText(MainActivity.this, "��⵽ҡ�Σ�ִ�в�����",
-//						Toast.LENGTH_SHORT).show();
 				
 				mainBgLl = (LinearLayout)findViewById(R.id.main_activiry_bgll);
 				
@@ -231,7 +265,6 @@ public class MainActivity extends Activity implements OnClickListener {
 						break;
 				
 				}
-
 
 				break;
 			}
