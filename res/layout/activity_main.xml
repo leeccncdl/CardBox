@@ -3,7 +3,6 @@
     xmlns:tools="http://schemas.android.com/tools"
     android:id="@+id/main_activiry_bgll"
     style="@style/layout_full"
-    android:background="@drawable/main_bg_4"
     android:baselineAligned="false"
     android:orientation="vertical" >
 
@@ -34,6 +33,7 @@
             style="@style/layout_wrap"
             android:layout_weight="1"
             android:gravity="center"
+            android:textSize="20sp"
             android:text="@string/title_description" />
 
         <ImageView

@@ -184,7 +184,7 @@ public class IsrDemoActivity extends Activity implements OnClickListener,
 	{
 
 		try {
-			String fname = "keys";
+			String fname = "sh_heros";
 			
 			//获取名称为keys的文件句柄.
 			File sdfile = new File(
@@ -209,7 +209,7 @@ public class IsrDemoActivity extends Activity implements OnClickListener,
 			//第一个参数是上传的文本名称，可以自定义，比如"keys"
 			//第二个参数是上传的文本内容，需要转成utf-8格式
 			//第三个参数是上传命令词对应的param,如果是命令词固定为dtt=keylist,sub=asr
-			uploadDialog.setContent("keys",keys.getBytes("utf-8"), "subject=asr,data_type=keylist");
+			uploadDialog.setContent("sh_heros",keys.getBytes("utf-8"), "subject=asr,data_type=keylist");
 		} catch (UnsupportedEncodingException e) {
 			e.printStackTrace();
 		} catch (IOException e) {
@@ -264,6 +264,7 @@ public class IsrDemoActivity extends Activity implements OnClickListener,
 			for (HashMap<String, String> hashMap : recognizerResult.semanteme) {
 				for (String value : hashMap.values()) {
 					builder.append(value);
+					Toast.makeText(this, hashMap.toString(), Toast.LENGTH_LONG).show();
 				}
 			}
 			builder.append("(");

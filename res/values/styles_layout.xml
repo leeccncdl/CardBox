@@ -22,5 +22,12 @@
   <style name="layout_vertical" parent="layout_full">  
     <item name="android:layout_height">0px</item>
   </style> 
+  
+  <style name="setting_item_ll">  
+    <item name="android:layout_width">fill_parent</item>  
+    <item name="android:layout_height">50dp</item>   
+    <item name="android:orientation">horizontal</item>  
+    <item name="android:gravity">center</item>  
+  </style>
 	
 </resources>  

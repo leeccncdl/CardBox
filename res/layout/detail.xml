@@ -1,0 +1,80 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/main_activiry_bgll"
+    style="@style/layout_full"
+    android:background="@drawable/main_bg_4"
+    android:baselineAligned="false"
+    android:orientation="vertical" >
+
+    <FrameLayout
+        style="@style/layout_vertical"
+        android:layout_weight="1"
+        android:gravity="center_vertical"
+        android:orientation="horizontal"
+        android:padding="8dp" >
+
+        <ImageView
+            android:id="@+id/setting_back"
+            style="@style/layout_wrap"
+            android:clickable="true"
+            android:contentDescription="@string/app_name"
+            android:src="@drawable/backxx" />
+
+        <TextView
+            style="@style/layout_full"
+            android:gravity="center"
+            android:text="@string/title_description"
+            android:textSize="26sp" />
+    </FrameLayout>
+
+    <LinearLayout
+        style="@style/layout_vertical"
+        android:layout_weight="4"
+        android:orientation="horizontal"
+        android:paddingLeft="8dp"
+        android:paddingRight="8dp" >
+
+        <ImageView
+            android:layout_margin="5dp"
+            style="@style/layout_horizontal"
+            android:layout_weight="1"
+            android:src="@drawable/h1" />
+        <LinearLayout
+            android:layout_margin="5dp"
+            android:padding="10dp"
+            style="@style/layout_horizontal"
+            android:layout_weight="1"
+            android:orientation="vertical" >
+            <TextView 
+                style="@style/layout_wrap"
+                android:layout_marginTop="10dp"
+                android:text="@string/hs1"
+                android:lines="2"
+                android:textSize="16sp"/>
+            <TextView 
+                style="@style/layout_wrap"
+                android:lines="3"
+                android:textSize="16sp"
+                android:text="@string/hz1"/>
+        </LinearLayout>
+    </LinearLayout>
+
+    <LinearLayout
+        style="@style/layout_vertical"
+        android:layout_weight="6"
+        android:orientation="vertical"
+        android:paddingLeft="16dp"
+        android:paddingRight="16dp" >
+        <TextView 
+            android:layout_margin="5dp"
+            style="@style/layout_wrap"
+            android:text="@string/detail_describe"/>
+        <TextView 
+            android:layout_margin="5dp"
+            style="@style/layout_wrap"
+            android:text="@string/hd1"
+			/>
+    </LinearLayout>
+
+</LinearLayout>
