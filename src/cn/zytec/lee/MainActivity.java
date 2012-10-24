@@ -1,6 +1,15 @@
 package cn.zytec.lee;
 
+import java.util.ArrayList;
+import java.util.HashMap;
 import java.util.Random;
+
+import com.iflytek.speech.RecognizerResult;
+import com.iflytek.speech.SpeechConfig.RATE;
+import com.iflytek.speech.SpeechError;
+import com.iflytek.ui.RecognizerDialog;
+import com.iflytek.ui.RecognizerDialogListener;
+
 import android.app.Activity;
 import android.content.Context;
 import android.content.Intent;
@@ -27,8 +36,10 @@ import cn.zytec.lee.gallery.GalleryFlow;
 import cn.zytec.lee.gallery.ImageAdapter;
 import cn.zytec.lee.voice.IsrDemoActivity;
 
-public class MainActivity extends Activity implements OnClickListener {
+public class MainActivity extends Activity implements OnClickListener,RecognizerDialogListener {
 
+	private RecognizerDialog isrDialog = null;
+	
 	private ImageAdapter adapter;
 
 	private SensorManager sensorManager;
@@ -38,7 +49,7 @@ public class MainActivity extends Activity implements OnClickListener {
 	
 	private LinearLayout mainBgLl;
 	
-	private int currentBg = 3;
+	private int currentBg = 0;
 	
 	private ImageView micImageView;
 	private ImageView shareImageView;
@@ -54,6 +65,7 @@ public class MainActivity extends Activity implements OnClickListener {
 		
 		SharedPreferences sp = this.getSharedPreferences("cardBox",Context.MODE_PRIVATE);  	
 		CardBoxApp.backGround = sp.getInt("BACK", 0);
+		CardBoxApp.isVoiceRecognizeTips =sp.getBoolean("VOICEREC", true);
 		
 		setContentView(R.layout.activity_main);
 
@@ -102,6 +114,10 @@ public class MainActivity extends Activity implements OnClickListener {
 		galleryFlow = (GalleryFlow) this.findViewById(R.id.Gallery);
 		gridView = (GridView)this.findViewById(R.id.main_gridview);
 		upDateView();
+		
+		isrDialog = new RecognizerDialog(this, "appid=" + getString(R.string.app_id));
+		isrDialog.setListener(this);
+		
 	}
 	@Override
 	public void onClick(View v) {
@@ -109,7 +125,13 @@ public class MainActivity extends Activity implements OnClickListener {
 		switch (v.getId()) {
 		//点击转写按钮，跳转到语音转写页面.
 		case R.id.main_mic_tv:
-			intent = new Intent(this, IsrDemoActivity.class);
+//			intent = new Intent(this, IsrDemoActivity.class)
+			isrDialog.setSampleRate(RATE.rate16k);
+			//设置Grammar ID
+			isrDialog.setEngine(null, null, CardBoxApp.mGrammarId);
+			//显示识别Dialog
+			isrDialog.show();
+			
 			break;
 		//点击识别按钮，跳转到语音识别页面.
 		case R.id.main_share_iv:
@@ -196,9 +218,12 @@ public class MainActivity extends Activity implements OnClickListener {
 			galleryFlow.setOnItemClickListener(new OnItemClickListener() {
 				public void onItemClick(AdapterView<?> parent, View view,
 						int position, long id) {
-					Toast.makeText(getApplicationContext(),
-							String.valueOf(position), Toast.LENGTH_SHORT)
-							.show();
+//					Toast.makeText(getApplicationContext(),
+//							String.valueOf(position), Toast.LENGTH_SHORT)
+//							.show();
+					Intent intent = new Intent(MainActivity.this, DetailActivity.class);
+					intent.putExtra("position", position);
+					startActivity(intent);
 				}
 
 			});
@@ -220,10 +245,12 @@ public class MainActivity extends Activity implements OnClickListener {
 				@Override
 				public void onItemClick(AdapterView<?> parent, View view,
 						int position, long id) {
-					Toast.makeText(getApplicationContext(),
-							String.valueOf(position), Toast.LENGTH_SHORT)
-							.show();
-					
+//					Toast.makeText(getApplicationContext(),
+//							String.valueOf(position), Toast.LENGTH_SHORT)
+//							.show();
+					Intent intent = new Intent(MainActivity.this, DetailActivity.class);
+					intent.putExtra("position", position);
+					startActivity(intent);
 				}
 			});
 			break;
@@ -241,7 +268,7 @@ public class MainActivity extends Activity implements OnClickListener {
 
 		@Override
 		public void onSensorChanged(SensorEvent event) {
-			if(CardBoxApp.isYaoyiyaoOpen == 1) {
+			if(CardBoxApp.isYaoyiyaoOpen) {
 				
 				float[] values = event.values;
 				float x = values[0];
@@ -334,6 +361,32 @@ public class MainActivity extends Activity implements OnClickListener {
 			break;
 		default:
 			break;
+		}
+	}
+	@Override
+	public void onEnd(SpeechError arg0) {
+		// TODO Auto-generated method stub
+		
+	}
+	@Override
+	public void onResults(ArrayList<RecognizerResult> results, boolean isLast) {
+		StringBuilder builder = new StringBuilder();
+		
+		//results是ArrayList类型的对象，需要对其每一个元素进行解析.
+		for (RecognizerResult recognizerResult : results) {
+			builder.append(recognizerResult.text);
+			builder.append(":");
+			//通过累加value获取识别结果的全部内容.
+			for (HashMap<String, String> hashMap : recognizerResult.semanteme) {
+				for (String value : hashMap.values()) {
+					builder.append(value);
+					Toast.makeText(this, hashMap.toString(), Toast.LENGTH_LONG).show();
+				}
+			}
+			builder.append("(");
+			//带上识别结果得分，仅在识别时有意义，转写的得分均为100.
+			builder.append(recognizerResult.confidence);
+			builder.append(")\n");
 		}
 	}
 

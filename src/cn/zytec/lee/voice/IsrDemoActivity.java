@@ -107,6 +107,9 @@ public class IsrDemoActivity extends Activity implements OnClickListener,
 		@Override
 		public void onData(byte[] arg0) {
 			mGrammarId = new String(arg0);
+			System.out.println("--------------------------");
+			System.out.println("mGrammarId:"+mGrammarId);
+			System.out.println("--------------------------");
 			Editor editor = mSharedPreferences.edit();
 			editor.putString(KEY_GRAMMAR_ID, mGrammarId);
 			editor.commit();

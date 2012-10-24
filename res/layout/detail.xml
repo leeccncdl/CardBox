@@ -15,7 +15,7 @@
         android:padding="8dp" >
 
         <ImageView
-            android:id="@+id/setting_back"
+            android:id="@+id/detail_back_iv"
             style="@style/layout_wrap"
             android:clickable="true"
             android:contentDescription="@string/app_name"
