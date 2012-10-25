@@ -136,7 +136,7 @@ public class IsrDemoActivity extends Activity implements OnClickListener,
 			if (TextUtils.isEmpty(mGrammarId)) {
 				Dialog dialog = new AlertDialog.Builder(this)
 				.setTitle(R.string.title_isr_warning)
-				.setMessage(R.string.message_isr_warning).create();
+				.setMessage("警告").create();
 				dialog.show();
 			} else {
 				showIsrDialog();

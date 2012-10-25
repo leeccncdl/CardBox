@@ -124,113 +124,113 @@
     <string name="h108">金毛犬－段景住</string>
     
     <string name="hs1">天罡：天魁星</string>
-    <string name="hs2">玉麒麟－卢俊义</string>
-    <string name="hs3">智多星－吴用</string>
-    <string name="hs4">入云龙－公孙胜</string>
-    <string name="hs5">大刀-关胜</string>
-    <string name="hs6">豹子头-林冲</string>
-    <string name="hs7">霹雳火－秦明</string>
-    <string name="hs8">双鞭－呼延灼</string>
-    <string name="hs9">小李广－花荣</string>
-    <string name="hs10">小旋风－柴进</string>
-    <string name="hs11">扑天雕－李应</string>
-    <string name="hs12">美髯公-朱仝</string>
-    <string name="hs13">花和尚－鲁智深</string>
-    <string name="hs14">行者-武松</string>
-    <string name="hs15">双枪将－董平</string>
-    <string name="hs16">没羽箭-张清</string>
-    <string name="hs17">青面兽－杨志</string>
-    <string name="hs18">金枪手－徐宁</string>
-    <string name="hs19">急先锋-索超</string>
-    <string name="hs20">神行太保－戴宗</string>
-    <string name="hs21">赤发鬼－刘唐</string>
-    <string name="hs22">黑旋风－李逵</string>
-    <string name="hs23">九纹龙－史进</string>
-    <string name="hs24">没遮拦-穆弘</string>
-    <string name="hs25">插翅虎－雷横</string>
-    <string name="hs26">混江龙-李俊</string>
-    <string name="hs27">立地太岁－阮小二</string>
-    <string name="hs28">船火儿－张横</string>
-    <string name="hs29">短命二郞－阮小五</string>
-    <string name="hs30">浪里白条－张顺</string>
-    <string name="hs31">活阎罗－阮小七</string>
-    <string name="hs32">病关索-杨雄</string>
-    <string name="hs33">拼命三郎-石秀</string>
-    <string name="hs34">两头蛇－解珍</string>
-    <string name="hs35">双尾蝎－解宝</string>
-    <string name="hs36">浪子－燕青</string>
-    <string name="hs37">神机军师－朱武</string>
-    <string name="hs38">镇三山-黄信</string>
-    <string name="hs39">病尉迟－孙立</string>
-    <string name="hs40">丑郡马－宣赞</string>
-    <string name="hs41">井木犴－郝思文</string>
-    <string name="hs42">百胜将－韩滔</string>
-    <string name="hs43">天目将－彭玘</string>
-    <string name="hs44">圣水将－单廷圭</string>
-    <string name="hs45">神火将-魏定国</string>
-    <string name="hs46">圣手书生－萧让</string>
-    <string name="hs47">铁面孔目－裴宣</string>
-    <string name="hs48">摩云金翅－鸥鹏</string>
-    <string name="hs49">火眼狻猊－邓飞</string>
-    <string name="hs50">锦毛虎－燕顺</string>
-    <string name="hs51">锦豹子-杨林</string>
-    <string name="hs52">轰天雷－凌振</string>
-    <string name="hs53">神算子－蒋敬</string>
-    <string name="hs54">小温侯－吕方</string>
-    <string name="hs55">赛仁贵－郭盛</string>
-    <string name="hs56">神医-安道全</string>
-    <string name="hs57">紫髯伯－皇甫瑞</string>
-    <string name="hs58">矮脚虎－王英</string>
-    <string name="hs59">一丈青－扈三娘</string>
-    <string name="hs60">丧门神－鲍旭</string>
-    <string name="hs61">混世魔王－樊瑞</string>
-    <string name="hs62">毛头星－孔明</string>
-    <string name="hs63">独火星－孔亮</string>
-    <string name="hs64">八臂哪吒－项充</string>
-    <string name="hs65">飞天大圣－李衮</string>
-    <string name="hs66">玉臂匠－金大坚</string>
-    <string name="hs67">铁笛仙－马麟</string>
-    <string name="hs68">出洞蛟－童威</string>
-    <string name="hs69">翻江蜃－童猛</string>
-    <string name="hs70">玉幡－孟康</string>
-    <string name="hs71">通臂猿－侯健</string>
-    <string name="hs72">跳涧虎－陈达</string>
-    <string name="hs73">白花蛇－杨春</string>
-    <string name="hs74">白面郞君－郑天寿</string>
-    <string name="hs75">九尾龟－陶宗旺</string>
-    <string name="hs76">铁扇子－宋清</string>
-    <string name="hs77">铁叫子－乐和</string>
-    <string name="hs78">花项虎－龚旺</string>
-    <string name="hs79">中箭虎－丁得孙</string>
-    <string name="hs80">小遮拦－穆春</string>
-    <string name="hs81">操刀鬼－曹正</string>
-    <string name="hs82">云里金刚－宋万</string>
-    <string name="hs83">摸着天－杜迁</string>
-    <string name="hs84">病大虫－薛永</string>
-    <string name="hs85">金眼彪－施恩</string>
-    <string name="hs86">小霸王-周通</string>
-    <string name="hs87">打虎将－李忠</string>
-    <string name="hs88">鬼脸儿－杜兴</string>
-    <string name="hs89">金钱豹子－汤隆</string>
-    <string name="hs90">独角龙－邹润</string>
-    <string name="hs91">出林龙－邹渊</string>
-    <string name="hs92">笑面虎－朱富</string>
-    <string name="hs93">旱地忽律－朱贵</string>
-    <string name="hs94">铁臂膊-蔡福</string>
-    <string name="hs95">一枝花－蔡庆</string>
-    <string name="hs96">催命判官－李立</string>
-    <string name="hs97">青眼虎－李云</string>
-    <string name="hs98">没面目-焦挺</string>
-    <string name="hs99">石将军－石勇</string>
-    <string name="hs100">小尉迟－孙新</string>
-    <string name="hs101">母大虫－顾大嫂</string>
-    <string name="hs102">菜园子－张青</string>
-    <string name="hs103">母夜叉－孙二娘</string>
-    <string name="hs104">活闪婆－王定六</string>
-    <string name="hs105">险道神－郁保四</string>
-    <string name="hs106">白日鼠-白胜</string>
-    <string name="hs107">鼓上蚤－时迁</string>
-    <string name="hs108">金毛犬－段景住</string>
+    <string name="hs2">天罡：天罡星</string>
+    <string name="hs3">天罡：天机星</string>
+    <string name="hs4">天罡：天闲星</string>
+    <string name="hs5">天罡：天勇星</string>
+    <string name="hs6">天罡：天雄星</string>
+    <string name="hs7">天罡：天猛星</string>
+    <string name="hs8">天罡：天威星</string>
+    <string name="hs9">天罡：天英星</string>
+    <string name="hs10">天罡：天贵星</string>
+    <string name="hs11">天罡：天富星</string>
+    <string name="hs12">天罡：天满星</string>
+    <string name="hs13">天罡：天孤星</string>
+    <string name="hs14">天罡：天伤星</string>
+    <string name="hs15">天罡：天立星</string>
+    <string name="hs16">天罡：天捷星</string>
+    <string name="hs17">天罡：天暗星</string>
+    <string name="hs18">天罡：天佑星</string>
+    <string name="hs19">天罡：天空星</string>
+    <string name="hs20">天罡：天速星</string>
+    <string name="hs21">天罡：天异星</string>
+    <string name="hs22">天罡：天杀星</string>
+    <string name="hs23">天罡：天微星</string>
+    <string name="hs24">天罡：天究星</string>
+    <string name="hs25">天罡：天退星</string>
+    <string name="hs26">天罡：天寿星</string>
+    <string name="hs27">天罡：天剑星</string>
+    <string name="hs28">天罡：天平星</string>
+    <string name="hs29">天罡：天罪星</string>
+    <string name="hs30">天罡：天损星</string>
+    <string name="hs31">天罡：天败星</string>
+    <string name="hs32">天罡：天牢星</string>
+    <string name="hs33">天罡：天慧星</string>
+    <string name="hs34">天罡：天暴星</string>
+    <string name="hs35">天罡：天哭星</string>
+    <string name="hs36">天罡：天巧星</string>
+    <string name="hs37">地煞：地魁星</string>
+    <string name="hs38">地煞：地煞星</string>
+    <string name="hs39">地煞：地勇星</string>
+    <string name="hs40">地煞：地杰星</string>
+    <string name="hs41">地煞：地雄星</string>
+    <string name="hs42">地煞：地威星</string>
+    <string name="hs43">地煞：地英星</string>
+    <string name="hs44">地煞：地奇星</string>
+    <string name="hs45">地煞：地猛星</string>
+    <string name="hs46">地煞：地文星</string>
+    <string name="hs47">地煞：地正星</string>
+    <string name="hs48">地煞：地辟星</string>
+    <string name="hs49">地煞：地阖星</string>
+    <string name="hs50">地煞：地强星</string>
+    <string name="hs51">地煞：地暗星</string>
+    <string name="hs52">地煞：地轴星</string>
+    <string name="hs53">地煞：地轴星</string>
+    <string name="hs54">地煞：地佐星</string>
+    <string name="hs55">地煞：地佑星</string>
+    <string name="hs56">地煞：地灵星</string>
+    <string name="hs57">地煞：地兽星</string>
+    <string name="hs58">地煞：地微星</string>
+    <string name="hs59">地煞：地慧星</string>
+    <string name="hs60">地煞：地暴星</string>
+    <string name="hs61">地煞：地默星</string>
+    <string name="hs62">地煞：地猖星</string>
+    <string name="hs63">地煞：地狂星</string>
+    <string name="hs64">地煞：地飞星</string>
+    <string name="hs65">地煞：地走星</string>
+    <string name="hs66">地煞：地巧星</string>
+    <string name="hs67">地煞：地明星</string>
+    <string name="hs68">地煞：地进星</string>
+    <string name="hs69">地煞：地退星</string>
+    <string name="hs70">地煞：地满星</string>
+    <string name="hs71">地煞：地遂星</string>
+    <string name="hs72">地煞：地周星</string>
+    <string name="hs73">地煞：地隐星</string>
+    <string name="hs74">地煞：地异星</string>
+    <string name="hs75">地煞：地理星</string>
+    <string name="hs76">地煞：地俊星</string>
+    <string name="hs77">地煞：地乐星</string>
+    <string name="hs78">地煞：地捷星</string>
+    <string name="hs79">地煞：地速星</string>
+    <string name="hs80">地煞：地镇星</string>
+    <string name="hs81">地煞：地嵇星</string>
+    <string name="hs82">地煞：地魔星</string>
+    <string name="hs83">地煞：地妖星</string>
+    <string name="hs84">地煞：地幽星</string>
+    <string name="hs85">地煞：地伏星</string>
+    <string name="hs86">地煞：地空星</string>
+    <string name="hs87">地煞：地僻星</string>
+    <string name="hs88">地煞：地全星</string>
+    <string name="hs89">地煞：地孤星</string>
+    <string name="hs90">地煞：地角星</string>
+    <string name="hs91">地煞：地短星</string>
+    <string name="hs92">地煞：地藏星</string>
+    <string name="hs93">地煞：地囚星</string>
+    <string name="hs94">地煞：地平星</string>
+    <string name="hs95">地煞：地损星</string>
+    <string name="hs96">地煞：地奴星</string>
+    <string name="hs97">地煞：地察星</string>
+    <string name="hs98">地煞：地恶星</string>
+    <string name="hs99">地煞：地丑星</string>
+    <string name="hs100">地煞：地数星</string>
+    <string name="hs101">地煞：地阴星</string>
+    <string name="hs102">地煞：地刑星</string>
+    <string name="hs103">地煞：地壮星</string>
+    <string name="hs104">地煞：地劣星</string>
+    <string name="hs105">地煞：地健星</string>
+    <string name="hs106">地煞：地耗星</string>
+    <string name="hs107">地煞：地贼星</string>
+    <string name="hs108">地煞：地狗星</string>
     
     <string name="hz1">职位：总督兵马大元帅</string>
     <string name="hz2">玉麒麟－卢俊义</string>
@@ -342,8 +342,337 @@
     <string name="hz108">金毛犬－段景住</string>
     <string name="quit">退出</string>
     
-    <string name="hd1">郓城县宋家村人氏，因为面黑身矮，人都唤他黑宋江，在家大孝，为人仗义疏财，所以又称孝义黑三郞。他刀笔精通，吏道纯熟，更兼爱习枪棒，学得多种武艺，平生爱好结识江湖上的英雄好汉，有人前来投奔，无论何人都细心款待，尽力资助，常替人排忧解难，救死扶伤，名震山东，河北，人们将他比做天上的及时雨。所谓“山东呼保义，豪杰宋公明”，梁山排名第一。</string>
-  
+    <string name="hdetail1">郓城县宋家村人氏，因为面黑身矮，人都唤他黑宋江，在家大孝，为人仗义疏财，所以又称孝义黑三郞。他刀笔精通，吏道纯熟，更兼爱习枪棒，学得多种武艺，平生爱好结识江湖上的英雄好汉，有人前来投奔，无论何人都细心款待，尽力资助，常替人排忧解难，救死扶伤，名震山东，河北，人们将他比做天上的及时雨。所谓“山东呼保义，豪杰宋公明”，梁山排名第一。</string>
+    <string name="hdetail2">北京人氏，一身好武艺，棍棒天下无双。所持麒麟黄金矛，麒麟黄金甲，宝马麒麟兽号称河北三绝。是林冲的师兄，燕青的旧主，开始不愿加入梁山，曾和梁山群雄大战金沙滩。后被奸人陷害，由梁山好汉搭救。曾头市一战，活捉史文恭，为晁盖报仇，威镇天下，梁山排名第二。</string>
+    <string name="hdetail3">熟读经书，精通三韬六略。胸中藏战将，腹内隐雄兵。神机妙算，人称“智多星”。吴用表字学究，道号加亮先生。协同晁盖智夺“生辰纲”，聚义梁山后，拜为正军师，排名第三。</string>
+    <string name="hdetail4">罗真人弟子，道号“一清先生”呼风唤雨，驾雾腾云，是梁山第一妖术师，曾收服“混世魔王”樊瑞，又在高唐州与高俅之弟高廉斗法，风云为之变色，梁山排名第四位，征讨方腊后，归隐山林，后来成为“混江龙”李俊海外之国的护法国师。</string>
+    <string name="hdetail5">三国关云长后人，原为蒲东巡检使。熟读兵法，深通武艺。三缕长髯，两眉入鬓，凤眼朝天，面如重枣，唇如涂朱，恰似关公再世。一口青龙偃月刀，跨下赤兔马，英勇盖世，曾独战林冲，秦明。归顺梁山后，排名第五，征讨方腊后，封为大名府兵马总管。后随李俊远征海外。</string>
+    <string name="hdetail6">东京八十万禁军教头。因为高俅之子高衙内垂涎林冲妻子，高俅伙同陆谦设计使林冲误闯白虎堂，被发配沧州。途中在野猪林由鲁智深搭救，幸免遇难。但高俅又使人火烧草料场，林冲才大闹山神庙，格杀陆谦，雪夜上梁山。后来火并王伦，拥立晁盖为梁山之王。梁山座次排名第六。一杆枪天下无敌，从无败绩。</string>
+    <string name="hdetail7">原为青州兵马统制，因为他性如烈火，声如雷霆，所以人称霹雳火。使一条狼牙烽火棒，有万夫不当之勇。清风山一役之后，随花荣等好汉归顺梁山，座第七把交椅。大名府大战索超，威震天下，征方腊时遭暗算，死于方杰之手。当时人们叹说“可怜霹雳火，灭地竟无声。</string>
+    <string name="hdetail8">原汝宁郡都统制，宋朝开国名将呼延赞嫡派子孙。两条水磨八棱钢鞭，雌鞭重十二斤，雄鞭重十三斤，有万夫不当之勇。曾用连环甲马阵打败梁山好汉。后被徐宁钩镰枪所破。梁山大聚义后排名第八。</string>
+    <string name="hdetail9">原为清风寨知寨。为救宋江，大闹清风寨。单凭一双弓箭，射遍天上地下，所以人称“小李广”。梁山座次排名第九，麾下十二队银枪手。又因是梁山第一美将军，所以和“金枪手”徐宁合称“风流威猛二将”。</string>
+    <string name="hdetail10">祖居沧州横海郡，大周皇帝嫡派子孙，钦赐丹书铁券。他仗义疏财，专门结识天下好汉，救助被贪官陷害之人，人称当世孟尝君。梁山大聚义后排名第十，负责梁山财政。</string>
+    <string name="hdetail11">李家庄庄主，原和祝家庄、扈家庄三庄同盟。枪法精熟，背藏五口鹰尾飞刀，百步杀人，神现鬼没。为解救时迁，大战祝彪，险遭暗算。自此归顺梁山。排名第十一。</string>
+    <string name="hdetail12">原和“插翅虎”雷横同为郓城县都头，因面如重枣，目若朗星，很象关羽，满县人称“美髯公”，后因雷横打死娼妓白秀英，而朱仝私放雷横投奔梁山被发配济州府，此后又被吴用设计归顺梁山，排名第十二位。</string>
+    <string name="hdetail13">原为渭州经略府提辖官，因打抱不平，三拳打死恶霸“镇关西”，才出家五台山，因背上刺满花绣，人称“花和尚”，由于受不了清规戒律，醉打山门之后被迁至东京相国寺。在菜园倒拔垂杨柳，在野猪林解救林冲。后又和杨志一起攻占二龙山。三山聚义后，坐梁山第十三把交椅。征方腊后，圆寂杭州六和寺，被封为　义烈照暨禅师。</string>
+    <string name="hdetail14">曾在景阳岗醉打猛虎名扬天下。为替武大郎报仇,怒杀潘金莲,西门庆,被发配孟州。为替’金眼彪’施恩夺回’快活林’酒楼,醉打蒋门神。后遭张都监陷害,武松大闹飞云浦,血溅鸳鸯楼。三山聚义后,在梁山坐第十四把交椅。征方腊时损失一条手臂。此后在六和寺颐养天年,封为清忠祖师。</string>
+    <string name="hdetail15">原东平府兵刀都监，河东上党郡人氏。董平心灵机巧，三教九流，无所不通，品竹调弦，无有不会，山东，河北皆号他为“风流双将”，曾和徐宁大战五十回合，不分胜败。梁山大聚义后排名第十五。</string>
+    <string name="hdetail16">原东昌府守将,擅用飞石打人,百发百中,人称“没羽箭”。梁山群雄攻打东昌府时,张清用飞石技连败梁山一十五员大将。后被吴用使计活捉。梁山大聚义后排名第十六。</string>
+    <string name="hdetail17">杨家将后人，因为在东京卖刀杀死泼皮牛二，被发配大名府，在大名府东郭校场曾与索超比武，大战五十余个回合，不分胜败，后来押送生辰纲被晁盖，吴用所劫，只得落草与鲁智深、武松占据二龙山。三山聚义后梁山排名十七位。</string>
+    <string name="hdetail18">原为东京八十万禁军金枪班教头。为破呼延钓连环甲马，吴用设计使时迁夜盗徐宁祖传铠甲“赛唐猊”，令徐宁归顺梁山。梁山座次排名第十八，麾下十二队金枪手。和“小李广”花荣合称“风流威猛二将”。</string>
+    <string name="hdetail19">原为大名府管军提辖使。因为性急如雷,每逢战斗,总是一马当先,所以大家多叫他”急先锋”。在大名府东郭校场曾与杨志比武,大战五十余个回合,不分胜败。梁山排名十九位。两败童贯时,一个回合就斧劈童贯手下都监王义,威震三军。</string>
+    <string name="hdetail20">原江州两院押狱节级，大闹江州后，跟随宋江投奔梁山，总管机密情报营，负责探听四处情报，日行八百，夜走六百，神行无敌，梁山排名第二十。</string>
+    <string name="hdetail21">东潞州人氏，自幼飘荡江湖。因为鬓角旁有一块朱砂记，所以人称“赤发鬼”就是他向晁盖传递“生辰纲”情报，引发梁山泊一百零八将大聚义。当初和雷横大战一百回合，不分上下，梁山排名第二十一。</string>
+    <string name="hdetail22">梁山第一黑大汉，力大如牛，一双鬼王斧，嗜杀如命。下山探母时，曾力杀五虎。每遇战斗，总是冲在最前，杀人不留步，人称“黑旋风”。曾在东京大闹花灯。一生追随宋江，忠义不二。梁山排名二十二。</string>
+    <string name="hdetail23">东京八十万禁军教头王进的徒弟，史家庄少庄主，因浑身上下绣有九条青龙，人称“九纹龙”，和“神机军师”朱武，“跳涧虎”陈过，“白花蛇”杨春聚义少华山，三山聚义后，梁山排二十三位。</string>
+    <string name="hdetail24">江州三霸中同“小遮拦”穆春同霸揭阳镇。后与群雄大闹江州府营救宋江。梁山排名第二十四，统领游击队。屡立战功。</string>
+    <string name="hdetail25">打铁出身，原和“美髯公”朱仝同为郓城县都头，因臂力过人，可跳二三丈阔洞，所以人称“插翅虎”。因娼妓白秀英欺负雷横母亲，雷横一怒之下打死白秀英。在朱仝相助之下投奔梁山。排名第二十五。</string>
+    <string name="hdetail26">江州三霸中同李立雄霸揭阳岭，纵横浔阳江上，参与大闹江州营救宋江，是白龙庙小聚会，二十九英雄之一，梁山大聚义后任水军大都督，征方腊时，诈病归隐，水浒后传中协同幸存的梁山好汉一起出海远征，成为一国之主，成就另一番事业，梁山排名第二十六。</string>
+    <string name="hdetail27">石碣村阮氏三雄之首，臂膊有千百斤力气，初随晁盖劫持“生辰纲”，大破巡检使何涛。梁山大聚义后，执掌楼船营。征方腊时，乌龙岭中敌埋伏，兵败自刎。梁山排名第二十七。</string>
+    <string name="hdetail28">江州三霸中同兄弟“浪里白条”张顺同霸浔阳江，冲波跃浪，即使狂风恶浪也不惧怕，是“白龙庙小聚会”二十九英雄之一。征方腊时，怒斩方天定，后知张顺惨死的消息，悲愤而亡，梁山排名第二十八。</string>
+    <string name="hdetail29">阮氏三雄之一，勇猛无敌，人言所有和他为敌的人，没有一个可以活命，所以人称”短命二郞“，征方腊时，在清溪县阵亡，梁山排名第二十九。</string>
+    <string name="hdetail30">张横的弟弟，浑身象雪一样的白肉，水底下可伏七日七夜，穿梭水面快速无比，就象一根白条一闪而过，所以人称“浪里白条”。是梁山中水性最好的。和李逵并称“黑白水陆双煞”。曾率水鬼营凿沉高俅海鳅大战船并活捉高俅，威震天下，征方腊时，在涌金门外水池被乱箭射死。梁山排名第三十。</string>
+    <string name="hdetail31">阮氏三雄中最小的弟弟，也最为凶悍，在梁山执掌快艇营，作战时横冲直撞，敌人无有不怕。也是阮氏三雄中唯一幸存的一个。后来随李俊海外称雄。梁山排名第三十一。</string>
+    <string name="hdetail32">原为蓟州府两院押狱兼市曹行刑刽子手。因妻子潘巧云与和尚裴如海通奸，才和石秀怒杀二人，投奔梁山。中途相遇时迁，只为时迁偷鸡，大闹祝家庄。梁山排名第三十二。</string>
+    <string name="hdetail33">杨雄结拜兄弟。因杨雄妻子潘巧云与和尚裴如海通奸，才和杨雄怒杀二人，投奔梁山。中途相遇时迁，只为时迁偷鸡，大闹祝家庄。梁山排名第三十三。</string>
+    <string name="hdetail34">登州猎户世家，解宝的大哥，生来骁勇，擅长穿山越岭，逐鹿捕兔，因恶霸毛太公贪图两人所猎杀的老虎，串通官府陷害兄弟两人，他们的表姐“母大虫”顾大嫂联络孙立、孙新、乐和等英雄大闹登州，随后又和梁山群雄打下祝家庄，梁山排名第三十四。</string>
+    <string name="hdetail35">登州猎户世家，解珍的弟弟，生来骁勇，擅长穿山越岭，逐鹿捕兔，因恶霸毛太公贪图两人所猎杀的老虎，串通官府陷害兄弟两人，他们的表姐“母大虫”顾大嫂联络孙立、孙新、乐和等英雄大闹登州，随后又和梁山群雄打下祝家庄，梁山排名第三十五。</string>
+    <string name="hdetail36">从小由“玉麒麟”卢俊义养大。因为有一身雪白的肌肉，所以刺了满身象锦缎一样的花绣。吹弹唱舞，无所不能，各地方方言，无所不会，更有一身本事，一张弩，箭箭不落空，相扑擒拿，称为一绝。北京城中，人称“浪子”，在秦安擂台上，以“鹁鹄旋”击倒“擎天柱”任原，在梁山，使“夺命扑”之技，怒摔高俅。后随李俊，飘洋出海，梁山排名三十六位。</string>
+    <string name="hdetail37">祖籍定远人氏，精通阵法，广有谋略。原和陈达，杨春同霸少华山。后结识史进。加入梁山后，成为吴用的副手。地煞星中号称第一。梁山排名第三十七。</string>
+    <string name="hdetail38">原为青州府兵马都监。武艺高强，威震青州。因为青州地面，所管有三座大山，清风山，二龙山，桃花山，所以黄信号称“镇三山”。归顺梁山后，排名第三十八。</string>
+    <string name="hdetail39">原为琼州人氏，军官世家，孙新的大哥，原为登州兵马提辖。仗着鞭枪无敌，威震渤海湾。大闹登州后又相助梁山三打祝家庄。梁山大聚义后排名第三十九。</string>
+    <string name="hdetail40">此人生得面如锅底，鼻孔朝天，卷发赤须，彪形八尺，刀法箭双绝。先前在王府曾做郡马人呼“丑郡马”因对连珠箭赢了番将，郡王爱他武艺，招为女婿。谁想郡主嫌他丑陋，怀恨而亡。归顺梁山，排名第四十。</string>
+    <string name="hdetail41">原为关胜部将，当初他母亲梦见井木犴投胎，然后怀孕生下郝思文，因此人称“井木犴”。精通十八般武艺。和关胜、宣赞一起归顺梁山后，排名第四十一。</string>
+    <string name="hdetail42">原为陈州团练使，东京人氏，武举出身，当初随呼延灼讨伐梁山，后来徐宁大破连环甲马，被刘唐擒获。归顺梁山后，排名第四十二。</string>
+    <string name="hdetail43">原为颖州团练使，东京人氏，世代将门之子，武艺高强。当初随呼延灼讨伐梁山，被扈三娘以“鹰击长空”一技所擒。归顺梁山后排名第四十三。</string>
+    <string name="hdetail44">原和魏定国同为凌州团练使，他武艺高强，且精通水攻之法，所以人称“圣水将”。曾以碧水阵击败过郝思文。归顺梁山后排名第四十四。</string>
+    <string name="hdetail45">原和单廷圭为凌州团练使.武艺高强,精通火攻兵法,上阵专用火器取胜,所以号称’神火将’.曾以火车阵击败关胜.归顺梁山后,排名第四十五。</string>
+    <string name="hdetail46">济州人氏，秀才出生。会写诸家字体，人称“圣手书生”，曾模仿蔡京字体，伪造公文搭救宋江。梁山排名第四十六。</string>
+    <string name="hdetail47">原是京兆府六案孔目，喜欢研究法律，为人正直聪明，铁面无私，所以人称“铁面孔目”。后来被贪官诬陷，落草饮马川。梁山聚义后，排名第四十七。</string>
+    <string name="hdetail48">黄州人氏，原先把守大江军户，被贪官陷害，落魄绿林，只因身强力壮，行走快似飞腾，所以江湖号称“摩云金翅”。黄门山四杰之首。梁山排名第四十八。</string>
+    <string name="hdetail49">原为盖天军襄阳府人氏，因为多食生肉以至双眼红赤，所以江湖人称“火眼狻猊”。初和裴宣，孟康占据饮马川。梁山大聚义后排名第四十九。</string>
+    <string name="hdetail50">山东莱州人氏，只因赤发黄须，臂长腰阔，江湖人称“锦毛虎”。原为清风山头领，为搭救宋江，花荣大闹清州道，梁山排名第五十。</string>
+    <string name="hdetail51">彰德府人氏，后来结识公孙胜、戴宗，投奔梁山。梁山大聚义后，排名第五十一。</string>
+    <string name="hdetail52">祖籍燕陵人氏，善造火炮，火炮落处，天崩地裂，是宋朝第一炮手。所谓“金轮子母轰天振，炮手名闻四百州”。梁山排名五十二。</string>
+    <string name="hdetail53">湖南潭州人氏，落科举人出身。颇有谋略，精通算术，积万累千，丝毫不差，因此人称“神算子”。初和欧鹏、马麟，陶宗旺占据黄门山。梁山排名第五十三。</string>
+    <string name="hdetail54">潭州人氏，平日爱学吕布打扮，习学方天画戟，人称“小温侯”。当初和郭盛大战对影山，两枝方天画戟搅在一起，被花荣一箭射开。两人才心悦诚服归顺梁山，排名第五十四。</string>
+    <string name="hdetail55">原为西川嘉陵人氏。因为白袍白甲，又使方天画戟，江湖上将他比作唐朝名将薛仁贵，所以人称“赛仁贵”。为和吕方比试戟法，连战十几天，不分胜败。梁山排名第五十五。</string>
+    <string name="hdetail56">建康府人氏，祖传内科外科医术，救人无数，天下驰名，所谓“万里传名安道全”，梁山好汉有何伤病都找他医治，因此对他好生相敬，梁山排名第五十六。</string>
+    <string name="hdetail57">幽州人氏，善能想马，通晓牲口寒署病症，下药用针，无不痊愈。因为碧眼紫髯，貌似番人，人称“紫髯伯”。梁山排名管五十七。</string>
+    <string name="hdetail58">祖籍两淮人氏，虽然身量矮小却武艺高强，江湖人称“矮脚虎”，当初和燕顺、郑天寿同占清风山。攻打祝家庄时被扈三娘生擒。后经宋江撮合，与扈三娘结为夫妇，梁山排名第五十八。</string>
+    <string name="hdetail59">原为扈家庄千金，先和祝家庄联盟。一打祝家庄时，曾生擒“矮脚虎”王英，连败“摩云金翅”鸥鹏和“铁笛仙”马麟。梁山众将为之震惊。二打祝家庄时被林冲生擒，宋江收为义妹，与王英成婚，梁山排名第五十九，是梁山三女中武功最强的，又被人称为“梁山美艳第一”。</string>
+    <string name="hdetail60">原先是枯树山头领平生杀敌无数，世人把他比作丧门神。后来相遇李逵、焦挺一起攻打凌州。只因善于使一柄加长阔剑，所以组建一支装甲重剑营。梁山排名第六十。</string>
+    <string name="hdetail61">濮州人氏，幼年在全真门下学艺，左手使锤，右手使剑，神出鬼没，斩将夺旗，人不敢近。又兼一身法术，伏怪除妖，人称“混世魔王”。芒砀山一战，被公孙胜收服，归顺梁山。后拜公孙胜为师。梁山排名第六十一。</string>
+    <string name="hdetail62">白虎山孔家庄少庄主，和兄弟孔亮都是宋江的徒弟。因和恶霸争执，落草白虎山。三山聚义后，梁山排名第六十二。任中军守护营步兵队队长。</string>
+    <string name="hdetail63">白虎山孔家庄少庄主，和大哥孔明都是宋江的徒弟。因和恶霸争执，落草白虎山。三山聚义后，梁山排名第六十三。任中军守护营步兵队副队长</string>
+    <string name="hdetail64">原为“混世魔王”樊瑞手下，使一面盾牌，背插飞刀二十四把，百步之内，无有不中，右手使一条火尖枪。麾下五百滚刀手。梁山排名第六十四。</string>
+    <string name="hdetail65">原为“混世魔王”樊瑞手下，使一面盾牌，背插标枪二十四把，百步之内，无有不中，右手使一把秋风剑。麾下五百标枪手，梁山排名第六十五。</string>
+    <string name="hdetail66">萧让的同乡，开得好碑文，刻得好图书、玉石、印章。号称中原一绝。人称“玉臂匠”，他经常伪造敌人兵符，帮助群雄出奇制胜。梁山排名第六十六。</string>
+    <string name="hdetail67">原为南京建康人氏，小番子闲汉出身，吹得好铁笛，使得一手好刀法，百十人不能近身，在黄门山投靠宋江，梁山排名六十七。</string>
+    <string name="hdetail68">祖籍浔阳江边，童猛之兄，追随李俊，同霸浔阳江，梁山大聚义后，职掌水军，后随李俊远赴海外，梁山排名第六十八。</string>
+    <string name="hdetail69">祖籍浔阳江边，童威之弟，追随李俊，同霸浔阳江，梁山大聚义后，职掌水军，后随李俊远赴海外，梁山排名第六十九。</string>
+    <string name="hdetail70">原为真定州人氏。善造大小船只，因为生的高大白净，所以人称“玉幡竿”。所谓“真州妙手楼舡匠，白玉幡竿是孟康”。梁山排名条七十。</string>
+    <string name="hdetail71">江西南昌人氏，飞会走线，是天下第一裁缝“病大虫”薛永的徒弟。人见他黑瘦敏捷，都称“通臂猿”，归顺梁山后，任旌旗军服房总管，梁山排名第七十一。</string>
+    <string name="hdetail72">邺城人氏，原为少华山头领，在史家庄一战，被史进生擒，经朱武周旋，结为生死之交。三山聚义后，梁山排名第七十二。</string>
+    <string name="hdetail73">蒲州解良县人氏，原为少华山头领，在史家庄结识史进，因为臂长腰瘦，所以人称“白花蛇”。三山聚义后，梁山排名第七十三。</string>
+    <string name="hdetail74">祖籍苏州人氏，因为生得白净俊俏，人送外号“白面郎君”，原是打银为生，后来结识燕顺，王英，落草清风山，梁山聚义后排名第七十四。</string>
+    <string name="hdetail75">光州人氏，农户出身，惯使一把铁锹。筑墙锄地，舞枪弄棒，样样精通，人称“九尾龟”来比喻他的本事多，黄门山四杰之一，梁山排名第七十五。</string>
+    <string name="hdetail76">宋江的弟弟，自幼随宋江结识各路英雄。文武双全，梁山大聚义后，排名第七十六，只因为风流倜傥，所以担任礼宾司总管一职。</string>
+    <string name="hdetail77">原是登州府押狱节级，孙立的妻舅。是一个聪明伶俐的人，诸般乐品，全部通晓。只为搭救解珍、解宝，和顾大嫂，孙立等大闹登州。梁山排名第七十七。</string>
+    <string name="hdetail78">原为东昌府守将张清的副将，浑身刺着虎斑，脖项上挂着虎头，马上会使飞枪，人称“花项虎”。归顺梁山后，排名第七十八。</string>
+    <string name="hdetail79">原为东昌府守将张清副将，面颊和脖子都有疤痕，善使飞叉。东昌战役中，曾用飞叉击败项充。归顺梁山后排名第七十九。</string>
+    <string name="hdetail80">“没遮拦”穆弘之弟，同为揭阳镇一霸。后与群雄大闹江州府营救宋江，梁山排名第八十，是穆弘的得力助手。</string>
+    <string name="hdetail81">林冲的徒弟，开封人氏，世代屠杀牲口非常拿手，人称“操刀鬼”。后来协助鲁智深，杨志夺取二龙山。梁山排名八十一。</string>
+    <string name="hdetail82">原和杜迁是最早上梁山的二人。因为高大威猛，人称“云里金刚”。先跟随王伦。后来林冲火并王伦。他和杜迁才正式加入一百零八将的行列，梁山排名第八十二。</string>
+    <string name="hdetail83">原和宋万是最早上梁山的二人。因为身长手长，人称“摸着天”先跟随王伦，后来林冲火并王伦。他和宋万才正式加入一百零八将的行列。梁山排名第八十三。</string>
+    <string name="hdetail84">河南洛阳人氏，祖上军官，后来家道中落，只得靠使棒卖药度日。江湖号称病大虫。曾在揭阳镇痛打穆春而结识宋江。梁山排名第八十四。</string>
+    <string name="hdetail85">为孟州牢房管营之子，结识武松后，武松醉打蒋门神，帮他夺回快活林酒店。后投靠武松落草二龙山，梁山排名八十五。</string>
+    <string name="hdetail86">原为桃花山二头领，因前去桃花村刘太公处抢亲，被鲁智深假扮新娘痛打一顿，三山聚义后，梁山排名八十六。</string>
+    <string name="hdetail87">原是史进的启蒙师傅，常在江湖使枪棒卖药。后与周通同霸桃花山，因吝啬小气，屡被鲁智深嘲弄。三山聚义后，排名第八十七。</string>
+    <string name="hdetail88">祖籍中山府人氏，因为他脸庞生得粗莽吓人，以至人都叫他“鬼脸儿”，原为李应的管家。三打祝家庄后归顺梁山，排名八十八。</string>
+    <string name="hdetail89">世代以打造军器为生。因整日锻造兵器，火星飞溅，以致全身伤疤所以人称“金钱豹子”。后来智赚徐宁打造钩镰枪，为大破呼延灼连环甲马立下大功，梁山排名第八十九。</string>
+    <string name="hdetail90">原为山东莱州人氏，邹渊的侄子。天生异相，脑后一个肉瘤，所以人称“独角龙”。邹润往常和人争闹，总是一头撞去。一日，一头撞折一株松树。从此威震山东。归顺梁山后排名第九十。</string>
+    <string name="hdetail91">邹润的叔叔。原在登云山落草。最喜欢赌钱，为人忠良慷慨。后相助顾大嫂大闹登州，搭救解珍、解宝。梁山排名九十一。</string>
+    <string name="hdetail92">朱贵的兄弟，原在沂水县开了一个酒店，因李逵下山探母，怒杀四虎，被困曹家庄。多亏朱富使计下药酒搭救。归顺梁山后排名第九十二。</string>
+    <string name="hdetail93">沂水县人氏，梁山南山酒店迎宾使之一，梁山最早的酒店迎宾使，擅长使用麻药，精于暗杀。梁山排名第九十三。</string>
+    <string name="hdetail94">原为大名府两院押狱，兼行刑刽子手。北京土居人士，因手段高强曾连续斩人首级一千，人呼”铁臂膊“，是蔡庆的大哥，梁山排名九十四，与蔡庆同称“追魂夺命二使”，后随李俊远行海外。</string>
+    <string name="hdetail95">原为大名府两院押牢节级　带管刽子手。生来爱戴一枝花，在河北人称“一枝花”蔡庆，后与梁山好汉一起搭救户俊义，大闹大名府，梁山专管行刑，排名第九十五，征方腊进阵亡。</string>
+    <string name="hdetail96">原和地俊同霸揭阳岭，开设酒店。只因长了一脸红色虬髯，酷似庙里的判官像，所以人称“催命判官”，梁山排名第九十六。</string>
+    <string name="hdetail97">原为沂水县都头，因生得阔脸浓眉红胡须，又有一双绿眼睛，所以人称“青眼虎”。梁山排名第九十七。</string>
+    <string name="hdetail98">中山府人氏,祖传三代,相扑为生.独门单传三十六路擒龙手.单比拳脚,’黑旋风’李逵也不是他的对手.梁山排名第九十八。</string>
+    <string name="hdetail99">大名府人氏，开赌馆为生。因一拳打死一个老千赌徒，逃至柴进处。后参与大闹江州，是折龙庙小聚义二十九英雄之一，梁山排名第九十九。</string>
+    <string name="hdetail100">原为琼州人氏，军官世家。孙新生得身长力壮，由大哥孙立传授本事，使得一手好鞭枪，大家将其兄比作尉迟恭，孙新比作“小尉迟”。大闹登州后归顺梁山排名一百。</string>
+    <string name="hdetail101">解珍、解宝的表姐，孙新的妻子。原在登州东门外开酒店。只因解珍、解宝被毛太公陷害，纠合众英雄大闹登州。归顺梁山后，梁山排名第一百零一。</string>
+    <string name="hdetail102">原在光明寺种菜园子，所以人称“菜园子”张青，后和孙二娘在十字坡开店，专杀恶人，做成人肉包子，后和武松相交，与鲁智深、杨志同占二龙山。三山聚义后，梁山排名一百零二。</string>
+    <string name="hdetail103">原和丈夫菜园子张青同在十字坡开店，专杀恶人，做成人肉包子。后和武松相交，与鲁智深、杨志同占二龙山。三山聚义后，梁山排名一百零三。人称梁山妖艳第一。</string>
+    <string name="hdetail104">原在扬子江旁开一酒店，排行第六，因行走跳跃非常快速，所以人称“活闪婆”活闪婆即电母。后帮张顺报仇，结果“截江鬼”张旺才归顺梁山。梁山排名第一百零四。</string>
+    <string name="hdetail105">原为曾头市麾下。身高一丈，膀大腰圆，当道一站，万夫莫开。所以人称“险道神”，归顺梁山后，专门掌管帅字旗，梁山排名第一百零五。</string>
+    <string name="hdetail106">黄泥岗安乐村人氏.智取生辰纲时,假扮卖酒小贩,用迷魂药迷倒扬志.归顺梁山后,任机密情报营头领,和乐和.时迁.段景住合称梁山’四大密探’.排名第一百零六。</string>
+    <string name="hdetail107">高唐州人氏，擅长飞檐走壁，穿墙绕梁。只因为和石秀在祝家庄偷鸡放火，才引起梁山好汉三打祝家庄。三山聚义后，担任梁山机密情报营的头领，排名第一百零七。征方腊后得病而亡。</string>
+    <string name="hdetail108">涿州人氏，因为生得赤发黄须，骨瘦形粗，所以人称“金毛犬”。擅长盗马驯马，精通蒙古话，西夏话、辽国话，只因为在北地枪杆岭盗得天下名马“照夜玉狮子马”，原本要送给宋江，不想在曾头市被“曾家五虎”所抢，才引出史文恭箭射晁盖，梁山群雄大战曾头市，梁山排名第一百零八。</string>
+	
+	<string-array
+		name="heros_for_voice">
+    <item>宋江</item>
+    <item>卢俊义</item>
+    <item>吴用</item>
+    <item>公孙胜</item>
+    <item>关胜</item>
+    <item>林冲</item>
+    <item>秦明</item>
+    <item>呼延灼</item>
+    <item>花荣</item>
+    <item>柴进</item>
+    <item>李应</item>
+    <item>朱仝</item>
+    <item>鲁智深</item>
+    <item>武松</item>
+    <item>董平</item>
+    <item>张清</item>
+    <item>杨志</item>
+    <item>徐宁</item>
+    <item>索超</item>
+    <item>戴宗</item>
+    <item>刘唐</item>
+    <item>李逵</item>
+    <item>史进</item>
+    <item>穆弘</item>
+    <item>雷横</item>
+    <item>李俊</item>
+    <item>阮小二</item>
+    <item>张横</item>
+    <item>阮小五</item>
+    <item>张顺</item>
+    <item>阮小七</item>
+    <item>杨雄</item>
+    <item>石秀</item>
+    <item>解珍</item>
+    <item>解宝</item>
+    <item>燕青</item>
+    <item>朱武</item>
+    <item>黄信</item>
+    <item>孙立</item>
+    <item>宣赞</item>
+    <item>郝思文</item>
+    <item>韩滔</item>
+    <item>彭玘</item>
+    <item>单廷圭</item>
+    <item>魏定国</item>
+    <item>萧让</item>
+    <item>裴宣</item>
+    <item>鸥鹏</item>
+    <item>邓飞</item>
+    <item>燕顺</item>
+    <item>杨林</item>
+    <item>凌振</item>
+    <item>蒋敬</item>
+    <item>吕方</item>
+    <item>郭盛</item>
+    <item>安道全</item>
+    <item>皇甫瑞</item>
+    <item>王英</item>
+    <item>扈三娘</item>
+    <item>鲍旭</item>
+    <item>樊瑞</item>
+    <item>孔明</item>
+    <item>孔亮</item>
+    <item>项充</item>
+    <item>李衮</item>
+    <item>金大坚</item>
+    <item>马麟</item>
+    <item>童威</item>
+    <item>童猛</item>
+    <item>孟康</item>
+    <item>侯健</item>
+    <item>陈达</item>
+    <item>杨春</item>
+    <item>郑天寿</item>
+    <item>陶宗旺</item>
+    <item>宋清</item>
+    <item>乐和</item>
+    <item>龚旺</item>
+    <item>丁得孙</item>
+    <item>穆春</item>
+    <item>曹正</item>
+    <item>宋万</item>
+    <item>杜迁</item>
+    <item>薛永</item>
+    <item>施恩</item>
+    <item>周通</item>
+    <item>李忠</item>
+    <item>杜兴</item>
+    <item>汤隆</item>
+    <item>邹润</item>
+    <item>邹渊</item>
+    <item>朱富</item>
+    <item>朱贵</item>
+    <item>蔡福</item>
+    <item>蔡庆</item>
+    <item>李立</item>
+    <item>李云</item>
+    <item>焦挺</item>
+    <item>石勇</item>
+    <item>孙新</item>
+    <item>顾大嫂</item>
+    <item>张青</item>
+    <item>孙二娘</item>
+    <item>王定六</item>
+    <item>郁保四</item>
+    <item>白胜</item>
+    <item>时迁</item>
+    <item>段景住</item>
+    
+    <item>呼保义</item>
+    <item>玉麒麟</item>
+    <item>智多星</item>
+    <item>入云龙</item>
+    <item>大刀</item>
+    <item>豹子头</item>
+    <item>霹雳火</item>
+    <item>双鞭</item>
+    <item>小李广</item>
+    <item>小旋风</item>
+    <item>扑天雕</item>
+    <item>美髯公</item>
+    <item>花和尚</item>
+    <item>行者</item>
+    <item>双枪将</item>
+    <item>没羽箭</item>
+    <item>青面兽</item>
+    <item>金枪手</item>
+    <item>急先锋</item>
+    <item>神行太保</item>
+    <item>赤发鬼</item>
+    <item>黑旋风</item>
+    <item>九纹龙</item>
+    <item>没遮拦</item>
+    <item>插翅虎</item>
+    <item>混江龙</item>
+    <item>立地太岁</item>
+    <item>船火儿</item>
+    <item>短命二郞</item>
+    <item>浪里白条</item>
+    <item>活阎罗</item>
+    <item>病关索</item>
+    <item>拼命三郎</item>
+    <item>两头蛇</item>
+    <item>双尾蝎</item>
+    <item>浪子</item>
+    <item>神机军师</item>
+    <item>镇三山</item>
+    <item>病尉迟</item>
+    <item>丑郡马</item>
+    <item>井木犴</item>
+    <item>百胜将</item>
+    <item>天目将</item>
+    <item>圣水将</item>
+    <item>神火将</item>
+    <item>圣手书生</item>
+    <item>铁面孔目</item>
+    <item>摩云金翅</item>
+    <item>火眼狻猊</item>
+    <item>锦毛虎</item>
+    <item>锦豹子</item>
+    <item>轰天雷</item>
+    <item>神算子</item>
+    <item>小温侯</item>
+    <item>赛仁贵</item>
+    <item>神医</item>
+    <item>紫髯伯</item>
+    <item>矮脚虎</item>
+    <item>一丈青</item>
+    <item>丧门神</item>
+    <item>混世魔王</item>
+    <item>毛头星</item>
+    <item>独火星</item>
+    <item>八臂哪吒</item>
+    <item>飞天大圣</item>
+    <item>玉臂匠</item>
+    <item>铁笛仙</item>
+    <item>出洞蛟</item>
+    <item>翻江蜃</item>
+    <item>玉幡</item>
+    <item>通臂猿</item>
+    <item>跳涧虎</item>
+    <item>白花蛇</item>
+    <item>白面郞君</item>
+    <item>九尾龟</item>
+    <item>铁扇子</item>
+    <item>铁叫子</item>
+    <item>花项虎</item>
+    <item>中箭虎</item>
+    <item>小遮拦</item>
+    <item>操刀鬼</item>
+    <item>云里金刚</item>
+    <item>摸着天</item>
+    <item>病大虫</item>
+    <item>金眼彪</item>
+    <item>小霸王</item>
+    <item>打虎将</item>
+    <item>鬼脸儿</item>
+    <item>金钱豹子</item>
+    <item>独角龙</item>
+    <item>出林龙</item>
+    <item>笑面虎</item>
+    <item>旱地忽律</item>
+    <item>铁臂膊</item>
+    <item>一枝花</item>
+    <item>催命判官</item>
+    <item>青眼虎</item>
+    <item>没面目</item>
+    <item>石将军</item>
+    <item>小尉迟</item>
+    <item>母大虫</item>
+    <item>菜园子</item>
+    <item>母夜叉</item>
+    <item>活闪婆</item>
+    <item>险道神</item>
+    <item>白日鼠</item>
+    <item>鼓上蚤</item>
+    <item>金毛犬</item>
+	</string-array>
+	
+	
 	<string
 		name="app_id">5074c428</string>
     <!-- isr -->
@@ -353,11 +682,6 @@
 		name="preference_key_isr_engine">isr_engine</string>
 	<string
 		name="preference_title_isr_engine">识别引擎</string>
-	<string-array
-		name="preference_entries_isr_engine">
-		<item>歌手识别</item>
-		<item>地名识别</item>
-	</string-array>
 	<string-array
 		name="preference_values_isr_engine">
 		<item>sms</item>
@@ -385,20 +709,10 @@
 		<item>rate16k</item>
 		<item>rate22k</item>
 	</string-array>
-	<string
-		name="preference_default_isr_rate">rate16k</string>
-	<string
-		name="preference_dialog_title_isr_rate">选择识别采样率</string>
-	<string
-		name="preference_key_isr_vad">isr_vad</string>
-	<string
-		name="preference_title_isr_vad">启用端点检测</string>
-	<string
-		name="tts_toast_format"
-		formatted="false">当前合成进度为%d%%，播放进度为%d%%</string>
-	
-		<string
-		name="title_isr_warning">警告</string>
-	<string
-		name="message_isr_warning">请先点击“上传”按钮上传语法</string>
+	<string name="preference_default_isr_rate">rate16k</string>
+	<string name="preference_dialog_title_isr_rate">选择识别采样率</string>
+	<string name="preference_key_isr_vad">isr_vad</string>
+	<string name="preference_title_isr_vad">启用端点检测</string>
+	<string name="title_isr_warning">警告</string>
+
 </resources>

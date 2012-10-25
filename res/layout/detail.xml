@@ -24,8 +24,8 @@
         <TextView
             style="@style/layout_full"
             android:gravity="center"
-            android:text="@string/title_description"
-            android:textSize="26sp" />
+            android:id="@+id/detail_name_tv"
+            android:textSize="20sp" />
     </FrameLayout>
 
     <LinearLayout
@@ -36,10 +36,10 @@
         android:paddingRight="8dp" >
 
         <ImageView
+            android:id="@+id/detail_hero_iv"
             android:layout_margin="5dp"
             style="@style/layout_horizontal"
-            android:layout_weight="1"
-            android:src="@drawable/h1" />
+            android:layout_weight="1"/>
         <LinearLayout
             android:layout_margin="5dp"
             android:padding="10dp"
@@ -49,14 +49,14 @@
             <TextView 
                 style="@style/layout_wrap"
                 android:layout_marginTop="10dp"
-                android:text="@string/hs1"
+                android:id="@+id/detail_star_tv"
                 android:lines="2"
                 android:textSize="16sp"/>
             <TextView 
                 style="@style/layout_wrap"
                 android:lines="3"
                 android:textSize="16sp"
-                android:text="@string/hz1"/>
+                android:id="@+id/detail_hero_position_tv"/>
         </LinearLayout>
     </LinearLayout>
 
@@ -73,7 +73,7 @@
         <TextView 
             android:layout_margin="5dp"
             style="@style/layout_wrap"
-            android:text="@string/hd1"
+            android:id="@+id/detail_hero_tv"
 			/>
     </LinearLayout>
 

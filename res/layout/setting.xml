@@ -77,7 +77,10 @@
             <LinearLayout
                 android:background="@drawable/corner_bgx"
                 android:id="@+id/setting_yaoyiyao_ll"
-                style="@style/setting_item_ll" >
+                android:layout_width="fill_parent"
+                android:layout_height="50dp"
+                android:orientation="horizontal"
+                android:gravity="center_vertical" >
 
                 <ImageView
                     android:layout_width="22dp"
@@ -88,13 +91,15 @@
 
                 <TextView
                     style="@style/layout_wrap"
-                    android:layout_weight="1"
+                    android:layout_weight="2"
                     android:paddingLeft="10dp"
                     android:text="@string/yaoyiyao"
                     android:textColor="#817F80"
                     android:textSize="18sp"
                     android:textStyle="bold" />
                 <ImageView
+                    android:paddingTop="6dp"
+                    android:paddingBottom="6dp"
                     android:id="@+id/setting_yaoyiyao_iv"
 					style="@style/layout_wrap"
                     android:contentDescription="@string/app_name"/>
