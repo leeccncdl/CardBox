@@ -26,7 +26,7 @@ public class SettingActivity extends Activity implements OnClickListener {
 		super.onCreate(savedInstanceState);
 		
 		SharedPreferences sp = this.getSharedPreferences("cardBox",Context.MODE_PRIVATE);  	
-		CardBoxApp.isYaoyiyaoOpen = sp.getBoolean("YAO", true);
+		CardBoxApp.vibraState = sp.getBoolean("YAO", true);
 	
 		setContentView(R.layout.setting);
 		quit = (LinearLayout) findViewById(R.id.setting_quit_ll);
@@ -38,7 +38,7 @@ public class SettingActivity extends Activity implements OnClickListener {
 		back = (ImageView) findViewById(R.id.setting_back);
 		
 		ivYao = (ImageView) findViewById(R.id.setting_yaoyiyao_iv);
-		refreshIv(CardBoxApp.isYaoyiyaoOpen);
+		refreshIv(CardBoxApp.vibraState);
 		
 		back.setOnClickListener(this);
 
@@ -57,8 +57,8 @@ public class SettingActivity extends Activity implements OnClickListener {
 			break;
 		case R.id.setting_yaoyiyao_ll:
 		{
-			CardBoxApp.isYaoyiyaoOpen = !CardBoxApp.isYaoyiyaoOpen;
-			refreshIv(CardBoxApp.isYaoyiyaoOpen);
+			CardBoxApp.vibraState = !CardBoxApp.vibraState;
+			refreshIv(CardBoxApp.vibraState);
 		}
 				break;
 			default:
@@ -80,7 +80,7 @@ public class SettingActivity extends Activity implements OnClickListener {
 		super.onPause();
         SharedPreferences sp = this.getSharedPreferences("cardBox",Context.MODE_PRIVATE);  
         SharedPreferences.Editor edit = sp.edit();  
-        edit.putBoolean("YAO", CardBoxApp.isYaoyiyaoOpen);
+        edit.putBoolean("YAO", CardBoxApp.vibraState);
         edit.commit();
 		
 	}
