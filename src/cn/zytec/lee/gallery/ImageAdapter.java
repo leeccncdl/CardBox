@@ -176,7 +176,8 @@ public class ImageAdapter extends BaseAdapter {
 					vh.iv.setImageBitmap(b);
 				}
 			}
-			vh.tv.setText(CardBoxApp.heroNames[position]);
+			//名字转移到详细类里，注释这部分，防止报错，九宫格显示形式已经去掉
+//			vh.tv.setText(CardBoxApp.heroNames[position]);
 			break;
 			
 		}

@@ -24,10 +24,7 @@ public class SettingActivity extends Activity implements OnClickListener {
 	protected void onCreate(Bundle savedInstanceState) {
 		// TODO Auto-generated method stub
 		super.onCreate(savedInstanceState);
-		
-		SharedPreferences sp = this.getSharedPreferences("cardBox",Context.MODE_PRIVATE);  	
-		CardBoxApp.vibraState = sp.getBoolean("YAO", true);
-	
+
 		setContentView(R.layout.setting);
 		quit = (LinearLayout) findViewById(R.id.setting_quit_ll);
 		recommend = (LinearLayout) findViewById(R.id.setting_recommend_ll);
