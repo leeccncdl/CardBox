@@ -20,14 +20,14 @@
             android:clickable="true"
             android:contentDescription="@string/app_name"
             android:src="@drawable/content_picture_x" />
-
+<!-- 
         <ImageView
             android:id="@+id/main_grid_view_iv"
             style="@style/layout_wrap"
             android:clickable="true"
             android:contentDescription="@string/app_name"
             android:src="@drawable/collections_view_as_grid_x" />
-
+ -->
         <TextView
             android:id="@+id/main_topcenter_title_tv"
             style="@style/layout_wrap"

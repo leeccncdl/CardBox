@@ -20,6 +20,7 @@ import android.os.Bundle;
 import android.os.Handler;
 import android.os.Message;
 import android.os.Vibrator;
+import android.util.DisplayMetrics;
 import android.view.KeyEvent;
 import android.view.Menu;
 import android.view.MotionEvent;
@@ -33,7 +34,6 @@ import android.widget.LinearLayout;
 import android.widget.Toast;
 import cn.zytec.lee.gallery.GalleryFlow;
 import cn.zytec.lee.gallery.ImageAdapter;
-
 import com.iflytek.speech.RecognizerResult;
 import com.iflytek.speech.SpeechConfig.RATE;
 import com.iflytek.speech.SpeechError;
@@ -56,19 +56,24 @@ public class MainActivity extends Activity implements OnClickListener,
 	private long mLastBackTime = 0;
 	private long TIME_DIFF = 2 * 1000;
 
-	private LinearLayout mainBgLl;
-	private ImageView micImageView;
-	private ImageView shareImageView;
-	private ImageView galleryImageView;
-	private ImageView gridImageView;
-	private ImageView settingImageView;
-	private GalleryFlow galleryFlow;
+	private LinearLayout mainBgLl;//还记得小时候的水浒英雄卡么
+	private ImageView micImageView;//还记得小时候和你换卡的同学么
+	private ImageView shareImageView;//怀念曾经一张小小的卡片就能高兴好一阵子的童年么
+	private ImageView galleryImageView;//让我们一起
+	private ImageView gridImageView;//找回曾经属于我们的那份简单的快乐
+	private ImageView settingImageView;//
+	private GalleryFlow galleryFlow;//开启卡片盒子
 	private GridView gridView;
 
 	@Override
 	public void onCreate(Bundle savedInstanceState) {
 		super.onCreate(savedInstanceState);
 
+		DisplayMetrics displayMetrics = new DisplayMetrics();
+		getWindowManager().getDefaultDisplay().getMetrics(displayMetrics);
+		CardBoxApp.displayWidth = displayMetrics.widthPixels;
+		CardBoxApp.displayHeight = displayMetrics.heightPixels;
+		
 		SharedPreferences sp = this.getSharedPreferences("cardBox",
 				Context.MODE_PRIVATE);
 		CardBoxApp.backGround = sp.getInt("BACK", 0);
@@ -96,7 +101,7 @@ public class MainActivity extends Activity implements OnClickListener,
 		micImageView.setOnClickListener(this);
 		shareImageView.setOnClickListener(this);
 		galleryImageView.setOnClickListener(this);
-		gridImageView.setOnClickListener(this);
+//		gridImageView.setOnClickListener(this);
 		settingImageView.setOnClickListener(this);
 
 	}
@@ -108,8 +113,9 @@ public class MainActivity extends Activity implements OnClickListener,
 		micImageView = (ImageView) findViewById(R.id.main_mic_tv);
 		shareImageView = (ImageView) findViewById(R.id.main_share_iv);
 		galleryImageView = (ImageView) findViewById(R.id.main_gallery_view_iv);
-		gridImageView = (ImageView) findViewById(R.id.main_grid_view_iv);
+//		gridImageView = (ImageView) findViewById(R.id.main_grid_view_iv);
 		settingImageView = (ImageView) findViewById(R.id.main_setting_iv);
+		
 
 	}
 
@@ -144,12 +150,12 @@ public class MainActivity extends Activity implements OnClickListener,
 				upDateView();
 			}
 			break;
-		case R.id.main_grid_view_iv:
+//		case R.id.main_grid_view_iv:
 			// if(CardBoxApp.currentViewMode != CardBoxApp.GRIDVIEW) {
 			// CardBoxApp.currentViewMode = CardBoxApp.GRIDVIEW;
 			// upDateView();
 			// }
-			break;
+//			break;
 		case R.id.main_setting_iv:
 			System.out.println("Seting");
 			intent = new Intent(this, SettingActivity.class);
@@ -202,7 +208,7 @@ public class MainActivity extends Activity implements OnClickListener,
 		case CardBoxApp.GALLERYVIEW:
 
 			galleryImageView.setEnabled(false);
-			gridImageView.setEnabled(true);
+//			gridImageView.setEnabled(true);
 
 			if (gridView != null) {
 				gridView.setVisibility(View.GONE);
@@ -407,19 +413,18 @@ public class MainActivity extends Activity implements OnClickListener,
 
 	@Override
 	public boolean onKeyDown(int keyCode, KeyEvent event) {
-//		if (keyCode == KeyEvent.KEYCODE_BACK) {
-//			long now = new Date().getTime();
-//			if (now - mLastBackTime < TIME_DIFF) {
-//				return super.onKeyDown(keyCode, event);
-//			} else {
-//				mLastBackTime = now;
-//				Toast.makeText(this, "再点一次将推出", 2000).show();
-//			}
-//			return true;
-//		}
+		if (keyCode == KeyEvent.KEYCODE_BACK) {
+			long now = new Date().getTime();
+			if (now - mLastBackTime < TIME_DIFF) {
+				return super.onKeyDown(keyCode, event);
+			} else {
+				mLastBackTime = now;
+				Toast.makeText(this, "再点一次将退出", 2000).show();
+			}
+			return true;
+		}
 		System.exit(0);
-//		ActivityManager activityMgr= (ActivityManager) this.getSystemService(ACTIVITY_SERVICE );
-//		activityMgr.restartPackage(getPackageName());
+
 		return true;
 	}
 

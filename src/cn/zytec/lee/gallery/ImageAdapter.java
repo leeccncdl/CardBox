@@ -59,7 +59,7 @@ public class ImageAdapter extends BaseAdapter {
 				height / 2, width, height / 2, matrix, false);
 
 		Bitmap bitmapWithReflection = Bitmap.createBitmap(width,
-				(height + height / 2), Config.ARGB_8888);
+				(height + height / 2), Config.ARGB_4444);
 
 		Canvas canvas = new Canvas(bitmapWithReflection);
 		canvas.drawBitmap(originalImage, 0, 0, null);
@@ -117,22 +117,29 @@ public class ImageAdapter extends BaseAdapter {
 		case CardBoxApp.GALLERYVIEW:
 			if (convertView == null) {
 				convertView = new ImageView(mContext);
-				convertView.setLayoutParams(new GalleryFlow.LayoutParams(300, 400));
+				convertView.setLayoutParams(new GalleryFlow.LayoutParams((int)(CardBoxApp.displayWidth*0.7),(int)(CardBoxApp.displayHeight*0.5)));
 			}
 
 			ImageView iv = (ImageView) convertView;
 			
 			
 			if (!cache.containsKey(id)) {
+				
+				BitmapFactory.Options options = new BitmapFactory.Options(); 
+				options.inPurgeable = true; 
+//				options.inSampleSize = 2;
 				Bitmap originalImage = BitmapFactory.decodeResource(
-						mContext.getResources(), id);
+						mContext.getResources(), id,options);
 				cache.put(id, new SoftReference<Bitmap>(originalImage));
 				iv.setImageBitmap(createReflectedImages(originalImage));
 			} else {
+				BitmapFactory.Options options = new BitmapFactory.Options(); 
+				options.inPurgeable = true; 
+//				options.inSampleSize = 2;
 				Bitmap b = cache.get(id).get();
 				if (b == null) {
 					Bitmap originalImage = BitmapFactory.decodeResource(
-							mContext.getResources(), id);
+							mContext.getResources(), id,options);
 					cache.put(id, new SoftReference<Bitmap>(originalImage));
 					iv.setImageBitmap(createReflectedImages(originalImage));
 				}else {

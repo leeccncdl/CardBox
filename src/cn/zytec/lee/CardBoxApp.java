@@ -5,6 +5,9 @@ import android.util.Log;
 import cn.zytec.lee.utils.StrictModeWrapper;
 
 public class CardBoxApp extends Application {
+	
+	public static int displayWidth;
+	public static int displayHeight;
 
 	public static int currentBg = 0;
 	

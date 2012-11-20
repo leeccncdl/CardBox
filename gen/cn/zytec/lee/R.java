@@ -173,33 +173,32 @@ public final class R {
         public static final int switch_on=0x7f020093;
     }
     public static final class id {
-        public static final int Gallery=0x7f0a0006;
-        public static final int categoty=0x7f0a0009;
-        public static final int detail_back_iv=0x7f0a000b;
-        public static final int detail_hero_iv=0x7f0a000d;
-        public static final int detail_hero_position_tv=0x7f0a000f;
-        public static final int detail_hero_tv=0x7f0a0010;
-        public static final int detail_name_tv=0x7f0a000c;
-        public static final int detail_star_tv=0x7f0a000e;
-        public static final int grid_view_tv=0x7f0a0012;
-        public static final int gridview_item_iv=0x7f0a0011;
+        public static final int Gallery=0x7f0a0005;
+        public static final int categoty=0x7f0a0008;
+        public static final int detail_back_iv=0x7f0a000a;
+        public static final int detail_hero_iv=0x7f0a000c;
+        public static final int detail_hero_position_tv=0x7f0a000e;
+        public static final int detail_hero_tv=0x7f0a000f;
+        public static final int detail_name_tv=0x7f0a000b;
+        public static final int detail_star_tv=0x7f0a000d;
+        public static final int grid_view_tv=0x7f0a0011;
+        public static final int gridview_item_iv=0x7f0a0010;
         public static final int main_activiry_bgll=0x7f0a0000;
         public static final int main_gallery_view_iv=0x7f0a0001;
-        public static final int main_grid_view_iv=0x7f0a0002;
-        public static final int main_gridview=0x7f0a0007;
-        public static final int main_mic_tv=0x7f0a0004;
-        public static final int main_setting_iv=0x7f0a0008;
-        public static final int main_share_iv=0x7f0a0005;
-        public static final int main_topcenter_title_tv=0x7f0a0003;
-        public static final int menu_settings=0x7f0a001a;
-        public static final int setting_about_ll=0x7f0a0018;
-        public static final int setting_back=0x7f0a0013;
-        public static final int setting_quit_ll=0x7f0a0019;
-        public static final int setting_recommend_ll=0x7f0a0014;
-        public static final int setting_suggestion_ll=0x7f0a0017;
-        public static final int setting_yaoyiyao_iv=0x7f0a0016;
-        public static final int setting_yaoyiyao_ll=0x7f0a0015;
-        public static final int txt_result=0x7f0a000a;
+        public static final int main_gridview=0x7f0a0006;
+        public static final int main_mic_tv=0x7f0a0003;
+        public static final int main_setting_iv=0x7f0a0007;
+        public static final int main_share_iv=0x7f0a0004;
+        public static final int main_topcenter_title_tv=0x7f0a0002;
+        public static final int menu_settings=0x7f0a0019;
+        public static final int setting_about_ll=0x7f0a0017;
+        public static final int setting_back=0x7f0a0012;
+        public static final int setting_quit_ll=0x7f0a0018;
+        public static final int setting_recommend_ll=0x7f0a0013;
+        public static final int setting_suggestion_ll=0x7f0a0016;
+        public static final int setting_yaoyiyao_iv=0x7f0a0015;
+        public static final int setting_yaoyiyao_ll=0x7f0a0014;
+        public static final int txt_result=0x7f0a0009;
     }
     public static final class layout {
         public static final int activity_main=0x7f030000;
