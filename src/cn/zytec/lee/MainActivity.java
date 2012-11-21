@@ -7,7 +7,6 @@ import java.util.List;
 import java.util.Random;
 
 import android.app.Activity;
-import android.app.ActivityManager;
 import android.content.Context;
 import android.content.Intent;
 import android.content.SharedPreferences;
@@ -56,19 +55,21 @@ public class MainActivity extends Activity implements OnClickListener,
 	private long mLastBackTime = 0;
 	private long TIME_DIFF = 2 * 1000;
 
-	private LinearLayout mainBgLl;//还记得小时候的水浒英雄卡么
-	private ImageView micImageView;//还记得小时候和你换卡的同学么
-	private ImageView shareImageView;//怀念曾经一张小小的卡片就能高兴好一阵子的童年么
-	private ImageView galleryImageView;//让我们一起
-	private ImageView gridImageView;//找回曾经属于我们的那份简单的快乐
-	private ImageView settingImageView;//
-	private GalleryFlow galleryFlow;//开启卡片盒子
+	private LinearLayout mainBgLl;
+	private ImageView micImageView;
+	private ImageView shareImageView;
+	private ImageView galleryImageView;
+	private ImageView gridImageView;
+	private ImageView settingImageView;
+	private GalleryFlow galleryFlow;
 	private GridView gridView;
 
 	@Override
 	public void onCreate(Bundle savedInstanceState) {
 		super.onCreate(savedInstanceState);
 
+		CardBoxApp.getInstance().addActivity(this);
+		
 		DisplayMetrics displayMetrics = new DisplayMetrics();
 		getWindowManager().getDefaultDisplay().getMetrics(displayMetrics);
 		CardBoxApp.displayWidth = displayMetrics.widthPixels;
@@ -139,7 +140,7 @@ public class MainActivity extends Activity implements OnClickListener,
 
 			shareIntent.setType("text/plain");
 			shareIntent.putExtra(Intent.EXTRA_SUBJECT, "分享");
-			shareIntent.putExtra(Intent.EXTRA_TEXT, "卡片盒子这个应用很好啊");
+			shareIntent.putExtra(Intent.EXTRA_TEXT, "卡片盒子这个应用很好啊");//分享应用描述
 			startActivity(Intent.createChooser(shareIntent, getTitle()));
 
 			break;
@@ -419,12 +420,10 @@ public class MainActivity extends Activity implements OnClickListener,
 				return super.onKeyDown(keyCode, event);
 			} else {
 				mLastBackTime = now;
-				Toast.makeText(this, "再点一次将退出", 2000).show();
+				Toast.makeText(this, "再点一次将退出", (int)TIME_DIFF).show();
 			}
 			return true;
 		}
-		System.exit(0);
-
 		return true;
 	}
 

@@ -7,6 +7,11 @@
     <string name="title_description">卡片盒子</string>
     <string name="setting_title_description">设置</string>
     <string name="detail_describe">人物小传</string>
+    <string name="btn_open_app">开启卡片盒子</string>
+    <string name="introduce_one">还记得小时候的水浒英雄卡么？</string>
+    <string name="introduce_two">还记得小时候和你换卡的同学么？</string>
+    <string name="introduce_three">怀念曾经一张小小的卡片就能高兴好一阵子的童年么？</string>
+    <string name="introduce_four">让我们一起找回曾经属于我们的那份简单的快乐</string>
     
     <string name="mGrammar_id">3a28d9e69e06e425995bb3722898ef02</string>
     <string name="recommend_app">推荐应用</string>

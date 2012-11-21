@@ -18,3 +18,8 @@
 #-keepclassmembers class fqcn.of.javascript.interface.for.webview {
 #   public *;
 #}
+
+#----------讯飞语点--------------------
+-keep class com.iflytek.**{
+	*;
+}

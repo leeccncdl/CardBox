@@ -1,10 +1,17 @@
 package cn.zytec.lee;
 
+import java.util.LinkedList;
+import java.util.List;
+
+import android.app.Activity;
 import android.app.Application;
 import android.util.Log;
 import cn.zytec.lee.utils.StrictModeWrapper;
 
 public class CardBoxApp extends Application {
+	
+	private List<Activity> activityList  = new LinkedList<Activity>();
+	private static CardBoxApp instance;
 	
 	public static int displayWidth;
 	public static int displayHeight;
@@ -60,5 +67,26 @@ public class CardBoxApp extends Application {
 		}
 
 	}
+	
+	public void addActivity(Activity act) {
+		activityList.add(act);
+	}
+	
+	public void exit() {
+		for(Activity activity:activityList) {
+			activity.finish();
+		}
+		System.exit(0);
+	}
 
+	private CardBoxApp() {
+		
+	}
+	
+	public static CardBoxApp getInstance() {
+		if(instance == null) {
+			instance = new CardBoxApp();
+		}
+		return instance;
+	}
 }
