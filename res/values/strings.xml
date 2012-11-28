@@ -1,17 +1,23 @@
 <resources>
 
-    <string name="app_name">CardBox</string>
-    <string name="hello_world">Hello world!</string>
+    <string name="app_name">卡片盒子</string>
     <string name="menu_settings">Settings</string>
     <string name="title_activity_main">CardBox</string>
     <string name="title_description">卡片盒子</string>
     <string name="setting_title_description">设置</string>
     <string name="detail_describe">人物小传</string>
     <string name="btn_open_app">开启卡片盒子</string>
-    <string name="introduce_one">还记得小时候的水浒英雄卡么？</string>
-    <string name="introduce_two">还记得小时候和你换卡的同学么？</string>
-    <string name="introduce_three">怀念曾经一张小小的卡片就能高兴好一阵子的童年么？</string>
-    <string name="introduce_four">让我们一起找回曾经属于我们的那份简单的快乐</string>
+    <string name="introduce_one">还记得小当家干脆面么?</string>
+    <string name="introduce_two">还记得水浒英雄卡么?</string>
+    <string name="introduce_three">还记得和你换卡的同学么?</string>
+    <string name="introduce_four">你是否也开始怀念童年的时光?</string>
+    <string name="introduce_five">那就让我们一起找回</string>
+    <string name="introduce_six">那份简单的快乐吧!</string>
+    <string name="suggestion_one">你可以发送新浪微博同时  @leeccncdl@卡片盒子，反馈您的宝贵意见</string>
+    <string name="suggestion_two">同时也欢迎您给作者 limingdl@yeah.net 发送电子邮件</string>
+    <string name="suggestion_three">感谢您的支持与鼓励</string>
+    <string name="intruduce_pages">进入欢迎页</string>
+  	<string name="author">作者:leeccncdl</string>
     
     <string name="mGrammar_id">3a28d9e69e06e425995bb3722898ef02</string>
     <string name="recommend_app">推荐应用</string>

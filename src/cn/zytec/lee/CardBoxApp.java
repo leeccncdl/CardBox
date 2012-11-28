@@ -25,6 +25,7 @@ public class CardBoxApp extends Application {
 	public static boolean vibraState;
 	public static int backGround;
 	public static boolean isVoiceRecognizeTips;
+	public static boolean isIntruduceDisplay;
 
 	public static final String mGrammarId = "3a28d9e69e06e425995bb3722898ef02";
 

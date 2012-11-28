@@ -2,7 +2,71 @@
 <LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
+    android:background="#DDDDDD"
     android:orientation="vertical" >
-    
+
+    <FrameLayout
+        style="@style/layout_vertical"
+        android:layout_weight="1"
+        android:gravity="center_vertical"
+        android:orientation="horizontal"
+        android:padding="8dp" >
+
+        <ImageView
+            android:id="@+id/suggestion_back"
+            style="@style/layout_wrap"
+            android:clickable="true"
+            android:contentDescription="@string/app_name"
+            android:src="@drawable/backx" />
+
+        <TextView
+            style="@style/layout_full"
+            android:gravity="center"
+            android:text="@string/suggestion"
+            android:textColor="#000000"
+            android:textSize="26sp" />
+    </FrameLayout>
+
+    <LinearLayout
+        style="@style/layout_vertical"
+        android:layout_weight="8"
+        android:orientation="vertical" >
+
+        <TextView
+            style="@style/layout_wrap"
+            android:paddingTop="40dp"
+            android:paddingLeft="20dp"
+            android:paddingRight="20dp"
+            android:textSize="18sp"
+            android:textColor="#333333"
+            android:text="@string/suggestion_one" />
+
+        <TextView
+            style="@style/layout_wrap"
+            android:paddingTop="40dp"
+            android:paddingLeft="20dp"
+            android:paddingRight="20dp"
+            android:textSize="18sp"
+            android:textColor="#333333"
+            android:autoLink="email"
+            android:text="@string/suggestion_two" />
+        
+        <TextView
+            style="@style/layout_wrap"
+            android:paddingTop="40dp"
+            android:paddingLeft="20dp"
+            android:paddingRight="20dp"
+            android:textSize="18sp"
+            android:textColor="#F52828"
+            android:layout_gravity="center"
+            android:text="@string/suggestion_three" />
+    </LinearLayout>
+
+    <LinearLayout
+        style="@style/layout_vertical"
+        android:layout_weight="1"
+        android:gravity="center"
+        android:orientation="horizontal" >
+    </LinearLayout>
 
 </LinearLayout>

@@ -394,22 +394,6 @@ public class MainActivity extends Activity implements OnClickListener,
 		intent.putExtra("position", position);
 		startActivity(intent);
 
-		// results是ArrayList类型的对象，需要对其每一个元素进行解析.
-		// for (RecognizerResult recognizerResult : results) {
-		// builder.append(recognizerResult.text);
-		// builder.append(":");
-		// //通过累加value获取识别结果的全部内容.
-		// for (HashMap<String, String> hashMap : recognizerResult.semanteme) {
-		// for (String value : hashMap.values()) {
-		// builder.append(value);
-		// Toast.makeText(this, hashMap.toString(), Toast.LENGTH_LONG).show();
-		// }
-		// }
-		// builder.append("(");
-		// //带上识别结果得分，仅在识别时有意义，转写的得分均为100.
-		// builder.append(recognizerResult.confidence);
-		// builder.append(")\n");
-		// }
 	}
 
 	@Override

@@ -65,7 +65,7 @@ public class SettingActivity extends Activity implements OnClickListener {
 			Intent shareIntent = new Intent(Intent.ACTION_SEND);
 			shareIntent.setType("text/plain");
 			shareIntent.putExtra(Intent.EXTRA_SUBJECT, "分享");
-			shareIntent.putExtra(Intent.EXTRA_TEXT, "卡片盒子这个应用很好啊");//推荐应用叙述
+			shareIntent.putExtra(Intent.EXTRA_TEXT, "我正在玩卡片盒子这个应用，这里面有当年全套的水浒卡片，快来加入吧！http://app.cardbox.com  ");
 			startActivity(Intent.createChooser(shareIntent, getTitle()));
 			break;
 		case R.id.setting_suggestion_ll:

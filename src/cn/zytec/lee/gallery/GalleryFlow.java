@@ -51,7 +51,6 @@ public class GalleryFlow extends Gallery {
     
     protected boolean getChildStaticTransformation(View child, Transformation t) {  
         final int childCenter = getCenterOfView(child);
-        System.out.println("childCenter��"+childCenter);
         final int childWidth = child.getWidth();
         int rotationAngle = 0;
 
@@ -62,7 +61,7 @@ public class GalleryFlow extends Gallery {
             transformImageBitmap((ImageView) child, t, 0);
         } else {
             rotationAngle = (int) (((float) (mCoveflowCenter - childCenter) / childWidth) * mMaxRotationAngle);
-            System.out.println("rotationAngle:" +rotationAngle);
+//            System.out.println("rotationAngle:" +rotationAngle);
             if (Math.abs(rotationAngle) > mMaxRotationAngle) {
                 rotationAngle = (rotationAngle < 0) ? -mMaxRotationAngle : mMaxRotationAngle;
             }

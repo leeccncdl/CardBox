@@ -1,7 +1,9 @@
 package cn.zytec.lee;
 
 import android.app.Activity;
+import android.content.Context;
 import android.content.Intent;
+import android.content.SharedPreferences;
 import android.os.Bundle;
 import android.view.View;
 import android.widget.Button;
@@ -25,8 +27,18 @@ public class IntroduceActivity extends Activity implements OnViewChangeListener{
     @Override
     public void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
-        setContentView(R.layout.introduce);
-        initView();
+		SharedPreferences sp = this.getSharedPreferences("cardBox",
+				Context.MODE_PRIVATE);
+		CardBoxApp.isIntruduceDisplay = sp.getBoolean("INTRODUCE",true);
+		if(CardBoxApp.isIntruduceDisplay) {
+			
+			setContentView(R.layout.introduce);
+			initView();
+		} else {
+			Intent intent = new Intent(IntroduceActivity.this, MainActivity.class);
+			startActivity(intent);
+			IntroduceActivity.this.finish();
+		}
     }
     
 	private void initView() {
@@ -53,6 +65,7 @@ public class IntroduceActivity extends Activity implements OnViewChangeListener{
 		public void onClick(View v) {
 			switch (v.getId()) {
 			case R.id.startBtn:
+				commitIntroducePre();
 				Intent intent = new Intent(IntroduceActivity.this, MainActivity.class);
 				startActivity(intent);
 				IntroduceActivity.this.finish();
@@ -60,6 +73,14 @@ public class IntroduceActivity extends Activity implements OnViewChangeListener{
 			}
 		}
 	};
+	
+	private void commitIntroducePre() {
+		SharedPreferences sp = this.getSharedPreferences("cardBox",
+				Context.MODE_PRIVATE);
+		SharedPreferences.Editor edit = sp.edit();
+		edit.putBoolean("INTRODUCE", false);
+		edit.commit();
+	}
 
 	@Override
 	public void OnViewChange(int position) {
